@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Link from 'next/link';
 
 export class Banner extends Component {
@@ -9,23 +9,34 @@ export class Banner extends Component {
                     <div className="d-table-cell">
                         <div className="container">
                             <div className="row h-100 align-items-center">
-                                    <div className="hero-content">
-                                        <h1 className="wow fadeInUp">Hi UTCG Community!</h1>
-                                        <ul className="wow fadeInDown">
-                                            <li><a href="#" target="_blank" className="facebook"><i className="icofont-facebook"></i></a></li>
-                                        </ul>
-                                        <p> We hope that everybody is safe and adjusting to working from home! As many of you already know, we have cancelled our remaining events for this school year. <br/>
-                                        We are planning to bring our speakers back for our scheduled talks once it is safe to do so, but in the meantime, we will be sharing cool graphics-related content on our Facebook page. <br/>
-
-In happier news, Ed Catmull and Pat Hanrahan just received this year’s ACM Turing award for fundamental contributions to 3D computer graphics! <a href="https://awards.acm.org/about/2019-turing" target="_blank">https://awards.acm.org/about/2019-turing</a>
-<br/> <br/>
-All the best, <br/>
-Cheryl Lao <br/>
-President<br/>
-University of Toronto Computer Graphics Club (UTCG)
-
-                                        </p>
-                                        <a href="/events" className="btn btn-primary wow fadeInUp">More Info</a>
+                                <div className="hero-content">
+                                    <h1 className="wow fadeInUp">Hi UTCG Community!</h1>
+                                    {/*<ul className="wow fadeInDown">*/}
+                                    {/*    /!*<li>*!/*/}
+                                    {/*    /!*    <a href="#" target="_blank" className="facebook"><i className="icofont-facebook"/></a>*!/*/}
+                                    {/*    /!*</li>*!/*/}
+                                    {/*</ul>*/}
+                                    <p>
+                                        Are you interested in VR/AR, animation, VFX, gaming, and creative coding? UTCG
+                                        is back for another year with a lot of exciting changes as we’re going virtual!
+                                        <br/>
+                                        We are hoping to launch “UTCG Projects”, a brand new initiative that aims to
+                                        bring students together in order to create and showcase some awesome
+                                        projects by the end of the term! Are you a total beginner, novice, or an
+                                        expert?
+                                        Is your goal to learn new skills, meet new people, and to create
+                                        show-stopping side projects? We’ve got you covered!
+                                        <br/>
+                                        With all this excitement, WE NEED YOUR HELP! We want to gauge student
+                                        interest, experience levels, and other important information that will
+                                        help us craft the perfect project environment.
+                                        If you’re interested, please fill out this survey and we will keep you
+                                        updated!
+                                    </p>
+                                    <a href="https://utcomputergraphics.typeform.com/to/mpw28M9I"
+                                       className="btn btn-primary wow fadeInUp">
+                                        UTCG Projects Survey
+                                    </a>
 
                                 </div>
                             </div>
@@ -43,36 +54,36 @@ University of Toronto Computer Graphics Club (UTCG)
 
                 </div>
                 <div className="shape4">
-                    <img src={require("../../images/shapes/4.png")} alt="shape" />
+                    <img src={require("../../images/shapes/4.png")} alt="shape"/>
                 </div>
                 <div className="shape5">
-                    <img src={require("../../images/shapes/5.png")} alt="shape" />
+                    <img src={require("../../images/shapes/5.png")} alt="shape"/>
                 </div>
                 <div className="shape6">
-                    <img src={require("../../images/shapes/6.png")} alt="shape" />
+                    <img src={require("../../images/shapes/6.png")} alt="shape"/>
                 </div>
                 <div className="shape7">
-                    <img src={require("../../images/shapes/7.png")} alt="shape" />
+                    <img src={require("../../images/shapes/7.png")} alt="shape"/>
                 </div>
                 <div className="shape8">
-                    <img src={require("../../images/shapes/8.png")} alt="shape" />
+                    <img src={require("../../images/shapes/8.png")} alt="shape"/>
                 </div>
                 <div className="shape9 rotateme">
-                    <img src={require("../../images/shapes/9.png")} alt="shape" />
+                    <img src={require("../../images/shapes/9.png")} alt="shape"/>
                 </div>
                 <div className="shape10 rotateme">
-                    <img src={require("../../images/shapes/10.png")} alt="shape" />
+                    <img src={require("../../images/shapes/10.png")} alt="shape"/>
                 </div>
 
 
                 <div className="circle-shape1">
-                    <img src={require("../../images/shapes/circle1.png")} alt="shape" />
+                    <img src={require("../../images/shapes/circle1.png")} alt="shape"/>
                 </div>
                 <div className="circle-shape2">
-                    <img src={require("../../images/shapes/circle2.png")} alt="shape" />
+                    <img src={require("../../images/shapes/circle2.png")} alt="shape"/>
                 </div>
                 <div className="circle-shape3">
-                    <img src={require("../../images/shapes/circle3.png")} alt="shape" />
+                    <img src={require("../../images/shapes/circle3.png")} alt="shape"/>
                 </div>
             </div>
         );
