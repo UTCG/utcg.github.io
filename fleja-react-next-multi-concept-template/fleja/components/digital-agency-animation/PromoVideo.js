@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Embed from "react-embed";
+import ReactPlayer from 'react-player/youtube';
 
 export class PromoVideo extends Component {
     render() {
@@ -9,8 +9,8 @@ export class PromoVideo extends Component {
                     <div className="d-table-cell">
                         <div className="container">
                             <div className="row h-100 justify-content-center align-items-center">
-                                <div className="col-lg-8 col-md-12 hero-content">
-                                    <Embed url="https://youtu.be/fiJIP2-Tylw"/>
+                                <div className="col-lg-7 col-md-12 hero-content" style={{textAlign: 'center'}}>
+                                    <ReactPlayer url="https://youtu.be/fiJIP2-Tylw" width="100%"/>
                                     <h2 className="wow fadeInUp">What is UTCG?</h2>
                                 </div>
                             </div>
@@ -19,22 +19,22 @@ export class PromoVideo extends Component {
                 </div>
 
                 <div className="shape13">
-                    <img src={require("../../images/shapes/13.png")} alt="shape" />
+                    <img src={require("../../images/shapes/13.png")} alt="shape"/>
                 </div>
                 <div className="shape18">
-                    <img src={require("../../images/shapes/18.png")} alt="shape" />
+                    <img src={require("../../images/shapes/18.png")} alt="shape"/>
                 </div>
                 <div className="shape19">
-                    <img src={require("../../images/shapes/19.png")} alt="shape" />
+                    <img src={require("../../images/shapes/19.png")} alt="shape"/>
                 </div>
                 <div className="shape20 rotateme">
-                    <img src={require("../../images/shapes/20.png")} alt="shape" />
+                    <img src={require("../../images/shapes/20.png")} alt="shape"/>
                 </div>
                 <div className="shape21">
-                    <img src={require("../../images/shapes/21.png")} alt="shape" />
+                    <img src={require("../../images/shapes/21.png")} alt="shape"/>
                 </div>
                 <div className="shape22">
-                    <img src={require("../../images/shapes/22.png")} alt="shape" />
+                    <img src={require("../../images/shapes/22.png")} alt="shape"/>
                 </div>
             </div>
         );
