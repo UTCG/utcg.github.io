@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Link from 'next/link';
 
-export class Banner extends Component {
+export class FeaturedEvent extends Component {
     render() {
         return (
             <div className="main-banner freelancer-portfolio-home">
@@ -90,4 +90,4 @@ export class Banner extends Component {
     }
 }
 
-export default Banner;
+export default FeaturedEvent;

@@ -20,6 +20,7 @@ import Partner from '../components/digital-agency-animation/Partner';
 import Contact from '../components/digital-agency-animation/Contact';
 import BigCalendarComponent from '../components/digital-agency-animation/BigCalendarComponent';
 import FeaturedEvent from '../components/digital-agency-animation/FeaturedEvent';
+import PromoVideo from "../components/digital-agency-animation/PromoVideo";
 
 export class index extends Component {
 
@@ -39,14 +40,11 @@ export class index extends Component {
             <React.Fragment>
                 <Navbar />
                 <Banner />
+                <PromoVideo/>
                 <FeaturedEvent />
                 <Services />
                 <Contact />
                 <Footer />
-
-
-
-
             </React.Fragment>
         );
     }
