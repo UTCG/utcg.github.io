@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Link from 'next/link';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
+import MailingListForm from "../components/custom/MailingListForm";
 
 export class index extends Component {
     render() {
         return (
             <React.Fragment>
-                <Navbar />
+                <Navbar/>
                 <div className="page-title-area item-bg1">
                     <div className="container">
                         <h1>Contact Us</h1>
@@ -21,21 +22,20 @@ export class index extends Component {
                         </ul>
                     </div>
                     <div className="shape1">
-                        <img src={require("../images/shapes/cube_corner.png")} alt="shape" />
+                        <img src={require("../images/shapes/cube_corner.png")} alt="shape"/>
                     </div>
                     <div className="shape2">
-                        <img src={require("../images/shapes/corner_top_rt.png")} alt="shape" />
+                        <img src={require("../images/shapes/corner_top_rt.png")} alt="shape"/>
                     </div>
                     <div className="shape3">
-                        <img src={require("../images/shapes/corner_bot_left.png")} alt="shape" />
+                        <img src={require("../images/shapes/corner_bot_left.png")} alt="shape"/>
                     </div>
                 </div>
 
 
-
                 <section className="contact-info-area pt-120">
                     <div className="container">
-                        <div className="row">
+                        <div className="row justify-content-center">
                             <div className="col-lg-4 col-md-6">
                                 <div className="contact-info-box">
                                     <div className="icon">
@@ -43,7 +43,7 @@ export class index extends Component {
                                     </div>
                                     <h3>e-Mail Us</h3>
                                     <p><a href="#">utcomputergraphics@gmail.com</a></p>
-                                    <p> </p>
+                                    <p></p>
                                 </div>
                             </div>
 
@@ -54,7 +54,7 @@ export class index extends Component {
                                     </div>
                                     <h3>Visit Facebook page</h3>
                                     <a href="https://www.facebook.com/UTComputerGraphics">Our Facebook</a>
-                                    <p> </p>
+                                    <p></p>
                                 </div>
                             </div>
 
@@ -64,8 +64,9 @@ export class index extends Component {
                                         <i className="icofont-email"></i>
                                     </div>
                                     <h3>Join Mailing List</h3>
-                                    <a href="http://eepurl.com/dGyWHr?fbclid=IwAR1VSrHcZcBTUEcFPBovD0sJ2mcxKPaSFr0qrXL_kkM_XRv02tRMbDncwx4">Join now!</a>
-                                    <p> </p>
+                                    <a href="http://eepurl.com/dGyWHr?fbclid=IwAR1VSrHcZcBTUEcFPBovD0sJ2mcxKPaSFr0qrXL_kkM_XRv02tRMbDncwx4">Join
+                                        now!</a>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -73,9 +74,10 @@ export class index extends Component {
                 </section>
 
                 <section className="contact-area ptb-120">
+                    <MailingListForm/>
                 </section>
 
-                <Footer />
+                <Footer/>
             </React.Fragment>
         );
     }

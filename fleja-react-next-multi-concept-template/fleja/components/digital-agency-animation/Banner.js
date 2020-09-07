@@ -19,7 +19,7 @@ export class Banner extends Component {
                                     <div className="hero-content">
                                         <h1 className="wow fadeInUp">Welcome to UTCG!</h1>
                                         <p className="wow fadeInDown">The University of Toronto Computer Graphics Club has a mission is to create a supportive learning community that provides graphics-related workshops, research talks, field trips and social events for people who are interested in any part of computer graphics!</p>
-                                        <a href="https://www.facebook.com/UTComputerGraphics/app/100265896690345/" target="_blank" className="btn btn-primary wow fadeInLeft">Add me to Mailing List</a>
+                                        <a href="http://eepurl.com/dGyWHr?fbclid=IwAR1VSrHcZcBTUEcFPBovD0sJ2mcxKPaSFr0qrXL_kkM_XRv02tRMbDncwx4" target="_blank" className="btn btn-primary wow fadeInLeft">Add me to Mailing List</a>
                                     </div>
                                 </div>
                             </div>
