@@ -29,7 +29,7 @@ export default function MailingListForm(props) {
                         <FormItem itemName="Student number" inputName="MMERGE5" inputType="number" required/>
                         <FormItem itemName="Program of Study" inputName="MMERGE6" inputType="text"/>
                         <FormItem itemName="Current Year (1st, 3rd, etc.)" inputName="MMERGE7" inputType="text"/>
-                        <div style={{position: 'absolute', left: '-5000px;'}} aria-hidden="true">
+                        <div style={{position: 'absolute', left: '-5000px;', display: 'none'}} aria-hidden="true">
                             <input type="text"
                                    name="b_cf7d8138decd989c4827a3920_ef6b20691a"
                                    tabIndex="-1"
