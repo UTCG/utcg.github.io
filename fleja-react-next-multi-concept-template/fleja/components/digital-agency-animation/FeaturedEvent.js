@@ -9,7 +9,7 @@ export class FeaturedEvent extends Component {
                     <div className="d-table-cell">
                         <div className="container">
                             <div className="row h-100 align-items-center">
-                                <div className="hero-content">
+                                <div className="hero-content" style={{padding: '20px'}}>
                                     <h1 className="wow fadeInUp">Hi UTCG Community!</h1>
                                     {/*<ul className="wow fadeInDown">*/}
                                     {/*    /!*<li>*!/*/}
@@ -20,22 +20,20 @@ export class FeaturedEvent extends Component {
                                         Are you interested in VR/AR, animation, VFX, gaming, and creative coding? UTCG
                                         is back for another year with a lot of exciting changes as we’re going virtual!
                                         <br/>
-                                        We are hoping to launch “UTCG Projects”, a brand new initiative that aims to
+                                        We launching <b><i>UTCG Projects</i></b>, a brand new initiative that aims to
                                         bring students together in order to create and showcase some awesome
                                         projects by the end of the term! Are you a total beginner, novice, or an
                                         expert?
                                         Is your goal to learn new skills, meet new people, and to create
                                         show-stopping side projects? We’ve got you covered!
                                         <br/>
-                                        With all this excitement, WE NEED YOUR HELP! We want to gauge student
-                                        interest, experience levels, and other important information that will
-                                        help us craft the perfect project environment.
-                                        If you’re interested, please fill out this survey and we will keep you
-                                        updated!
+                                        Below is a link to our <u>info session on UTCG Projects</u>, to be held on Friday
+                                        September 11 from 7-8 PM EDT!
                                     </p>
-                                    <a href="https://utcomputergraphics.typeform.com/to/mpw28M9I"
+                                    <a href="https://www.eventbrite.ca/e/utcg-projects-info-session-tickets-119813279745?aff=ebdssbeac"
+                                       target="_blank"
                                        className="btn btn-primary wow fadeInUp">
-                                        UTCG Projects Survey
+                                        UTCG Projects Info Session
                                     </a>
 
                                 </div>
