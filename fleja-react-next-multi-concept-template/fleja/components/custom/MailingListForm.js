@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../assets/styles/mailinglist.css';
 
 function FormItem(props) {
     return (
