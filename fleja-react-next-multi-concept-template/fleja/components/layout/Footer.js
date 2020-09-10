@@ -38,6 +38,10 @@ const quickLinks = [
         linkTo: "/team"
     },
     {
+        title: "Projects",
+        linkTo: "/projects"
+    },
+    {
         title: "Contact",
         linkTo: "/contact"
     }
