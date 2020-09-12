@@ -30,40 +30,6 @@ export class projects extends Component {
                         <img src={require("../images/shapes/corner_bot_left.png")} alt="shape"/>
                     </div>
                 </div>
-                <section className="cta-area ptb-120 bg-08071c">
-                    <div className="container">
-                        <div className="cta-content">
-                            <span>Wanna know more?</span>
-                            <h2>We're holding an info session!</h2>
-                            <p>
-                                We will be holding an online info session followed by Q&A on Friday September 11th.
-                                We'll be happy to answer all your questions!
-                            </p>
-                            <a href="http://bit.ly/UTCGProjectsInfoSessEB"
-                               target="_blank"
-                               className="btn btn-primary wow fadeInUp">Eventbrite</a> <a
-                            href="https://www.facebook.com/events/351863449332650"
-                            target="_blank"
-                            className="btn btn-primary wow fadeInUp">Facebook</a>
-                        </div>
-                    </div>
-
-                    <div className="shape5">
-                        <img src={require("../images/shapes/5.png")} alt="shape"/>
-                    </div>
-                    <div className="shape7">
-                        <img src={require("../images/shapes/7.png")} alt="shape"/>
-                    </div>
-                    <div className="shape9 rotateme">
-                        <img src={require("../images/shapes/9.png")} alt="shape"/>
-                    </div>
-                    <div className="shape14 rotateme">
-                        <img src={require("../images/shapes/14.png")} alt="shape"/>
-                    </div>
-                    <div className="shape15 rotateme">
-                        <img src={require("../images/shapes/15.png")} alt="shape"/>
-                    </div>
-                </section>
                 <section className="why-choose-us-area ptb-120">
                     <div className="container">
                         <div className="row h-100 align-items-center">
