@@ -26,21 +26,21 @@ const quickLinks = [
         linkTo: "/home"
     },
     {
-        title: "About",
-        linkTo: "/about-us"
-    },
-    {
         title: "Events",
         linkTo: "/freelancer-portfolio-animation"
-    },
-    {
-        title: "Team",
-        linkTo: "/team"
     },
     {
         title: "Projects",
         linkTo: "/projects"
     },
+    {
+        title: "Team",
+        linkTo: "/team"
+    },
+    // {
+        // title: "About",
+        // linkTo: "/about-us"
+    // },
     {
         title: "Contact",
         linkTo: "/contact"
