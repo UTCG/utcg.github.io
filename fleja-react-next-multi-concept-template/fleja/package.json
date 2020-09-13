@@ -1,7 +1,7 @@
 {
   "name": "fleja",
   "version": "1.0.0",
-  "description": "Fleja | React Next Multi-Concepts Templates",
+  "description": "UofT Computer Graphics Club",
   "main": "index.js",
   "scripts": {
     "dev": "node server.js -p $PORT",
