@@ -10,32 +10,43 @@ export class FeaturedEvent extends Component {
                         <div className="container">
                             <div className="row h-100 align-items-center">
                                 <div className="hero-content" style={{padding: '20px'}}>
-                                    <h1 className="wow fadeInUp">Hi UTCG Community!</h1>
+                                    <h1 className="wow fadeInUp">UTCG Projects</h1>
                                     {/*<ul className="wow fadeInDown">*/}
                                     {/*    /!*<li>*!/*/}
                                     {/*    /!*    <a href="#" target="_blank" className="facebook"><i className="icofont-facebook"/></a>*!/*/}
                                     {/*    /!*</li>*!/*/}
                                     {/*</ul>*/}
-                                    <p>
-                                        Are you interested in VR/AR, animation, VFX, gaming, and creative coding? UTCG
-                                        is back for another year with a lot of exciting changes as we’re going virtual!
-                                        <br/>
-                                        We launching <b><i>UTCG Projects</i></b>, a brand new initiative that aims to
-                                        bring students together in order to create and showcase some awesome
-                                        projects by the end of the term! Are you a total beginner, novice, or an
-                                        expert?
-                                        Is your goal to learn new skills, meet new people, and to create
-                                        show-stopping side projects? We’ve got you covered!
-                                        <br/>
-                                        Below is a link to our <u>info session on UTCG Projects</u>, to be held on Friday
-                                        September 11 from 7-8 PM EDT!
-                                    </p>
-                                    <a href="https://www.eventbrite.ca/e/utcg-projects-info-session-tickets-119813279745?aff=ebdssbeac"
-                                       target="_blank"
-                                       className="btn btn-primary wow fadeInUp">
-                                        UTCG Projects Info Session
-                                    </a>
-
+                                    <div className="row justify-content-center">
+                                        <div className="col-md-8">
+                                            <p>
+                                                Are you interested in VR/AR, animation, VFX, gaming, and creative
+                                                coding?
+                                                UTCG
+                                                is back for another year with a lot of exciting changes as we’re going
+                                                virtual!
+                                                <br/>
+                                                We launching <b><i>UTCG Projects</i></b>, a brand new initiative that
+                                                aims
+                                                to
+                                                bring students together in order to create and showcase some awesome
+                                                projects by the end of the term! Are you a total beginner, novice, or an
+                                                expert?
+                                                Is your goal to learn new skills, meet new people, and to create
+                                                show-stopping side projects? We’ve got you covered!
+                                                <br/>
+                                                <a href="http://bit.ly/UTCGProjectsInfoSessVid"
+                                                   target="_blank"><u>Here's</u></a> a
+                                                recording of our info session on UTCG Projects held on September 11.
+                                                <br/>
+                                                Visit our <a href="/projects"><u>Projects</u></a> page for more info!
+                                            </p>
+                                            <a href="http://bit.ly/UTCGProjectsInfoSessVid" target="_blank"
+                                               className="btn btn-primary wow fadeInUp">
+                                                Info Session Recording
+                                            </a> <a href="/projects" className="btn btn-primary wow fadeInUp">More
+                                            Info</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

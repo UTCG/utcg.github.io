@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 export class Banner extends Component {
     render() {
@@ -18,8 +18,16 @@ export class Banner extends Component {
                                 <div className="col-lg-6 col-md-12">
                                     <div className="hero-content">
                                         <h1 className="wow fadeInUp">Welcome to UTCG!</h1>
-                                        <p className="wow fadeInDown">The University of Toronto Computer Graphics Club has a mission is to create a supportive learning community that provides graphics-related workshops, research talks, field trips and social events for people who are interested in any part of computer graphics!</p>
-                                        <a href="http://eepurl.com/dGyWHr?fbclid=IwAR1VSrHcZcBTUEcFPBovD0sJ2mcxKPaSFr0qrXL_kkM_XRv02tRMbDncwx4" target="_blank" className="btn btn-primary wow fadeInLeft">Add me to Mailing List</a>
+                                        <p className="wow fadeInDown">
+                                            The University of Toronto Computer Graphics Club
+                                            has a mission is to create a supportive learning community that provides
+                                            graphics-related workshops, research talks, field trips and social events
+                                            for people who are interested in any part of computer graphics. This year
+                                            we're going virtual!
+                                        </p>
+                                        <a href="http://eepurl.com/dGyWHr?fbclid=IwAR1VSrHcZcBTUEcFPBovD0sJ2mcxKPaSFr0qrXL_kkM_XRv02tRMbDncwx4"
+                                           target="_blank" className="btn btn-primary wow fadeInLeft">Add me to Mailing
+                                            List</a>
                                     </div>
                                 </div>
                             </div>
@@ -48,38 +56,38 @@ export class Banner extends Component {
                 </div>
 
                 <div className="shape1">
-                    <img src={require("../../images/shapes/cube_corner.png")} alt="shape" />
+                    <img src={require("../../images/shapes/cube_corner.png")} alt="shape"/>
                 </div>
 
                 <div className="shape2">
-                    <img src={require("../../images/shapes/corner_top_rt.png")} alt="shape" />
+                    <img src={require("../../images/shapes/corner_top_rt.png")} alt="shape"/>
                 </div>
                 <div className="shape3">
-                    <img src={require("../../images/shapes/corner_bot_left.png")} alt="shape" />
+                    <img src={require("../../images/shapes/corner_bot_left.png")} alt="shape"/>
                 </div>
                 <div className="shape4">
-                    <img src={require("../../images/shapes/cone_grey.png")} alt="shape" />
+                    <img src={require("../../images/shapes/cone_grey.png")} alt="shape"/>
                 </div>
                 <div className="shape5">
-                    <img src={require("../../images/shapes/5.png")} alt="shape" />
+                    <img src={require("../../images/shapes/5.png")} alt="shape"/>
                 </div>
                 <div className="shape6">
-                    <img src={require("../../images/shapes/6.png")} alt="shape" />
+                    <img src={require("../../images/shapes/6.png")} alt="shape"/>
                 </div>
                 <div className="shape7">
-                    <img src={require("../../images/shapes/ring_cyan.png")} alt="shape" />
+                    <img src={require("../../images/shapes/ring_cyan.png")} alt="shape"/>
                 </div>
                 <div className="shape8">
-                    <img src={require("../../images/shapes/teapot_grey.png")} alt="shape" />
+                    <img src={require("../../images/shapes/teapot_grey.png")} alt="shape"/>
                 </div>
                 <div className="shape9 rotateme">
-                    <img src={require("../../images/shapes/9.png")} alt="shape" />
+                    <img src={require("../../images/shapes/9.png")} alt="shape"/>
                 </div>
                 <div className="shape10 rotateme">
-                    <img src={require("../../images/shapes/10.png")} alt="shape" />
+                    <img src={require("../../images/shapes/10.png")} alt="shape"/>
                 </div>
                 <div className="circle-shape1">
-                    <img src={require("../../images/shapes/bunny_grey.png")} alt="shape" className="w-150" />
+                    <img src={require("../../images/shapes/bunny_grey.png")} alt="shape" className="w-150"/>
                 </div>
             </div>
         );
