@@ -117,7 +117,8 @@ export class projects extends Component {
                                                 </div>
                                                 <h3>Final Project</h3>
                                                 <p>
-                                                    No matter which track you choose, you get to make a neat project. You'll
+                                                    No matter which track you choose, you get to make a neat project.
+                                                    You'll
                                                     demo it with a short video, which can be uploaded to YouTube and
                                                     shown off. What a flex!
                                                 </p>
@@ -167,18 +168,23 @@ export class projects extends Component {
                                     <a href="http://bit.ly/UTCGProjectReg" target="_blank">
                                         <i className="icon icofont-pencil"/>
                                     </a>
-                                    <h3>Register for Learner/Project Track</h3>
-                                    <a href="http://bit.ly/UTCGProjectReg" target="_blank">bit.ly/UTCGProjectReg</a>
+                                    <h3>Registration</h3>
+                                    <p>
+                                        Registration is closed for learner/project tracks and mentors. If you still want
+                                        to get involved, email us at <a href="mailto:uoftcomputergraphics@gmail.com"
+                                                                        target="_blank">uoftcomputergraphics@gmail.com</a>.
+                                    </p>
                                 </div>
                             </div>
 
                             <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                                 <div className="contact-info-box">
                                     <a href="http://bit.ly/UTCGMentorApp" target="_blank">
-                                        <i className="icon icofont-mustache"/>
+                                        <i className="icon icofont-video"/>
                                     </a>
-                                    <h3>Apply to be a Mentor</h3>
-                                    <a href="http://bit.ly/UTCGMentorApp" target="_blank">bit.ly/UTCGMentorApp</a>
+                                    <h3>Info Session</h3>
+                                    <a href="http://bit.ly/UTCGProjectsInfoSessVid"
+                                       target="_blank">http://bit.ly/UTCGProjectsInfoSessVid</a>
                                 </div>
                             </div>
                         </div>

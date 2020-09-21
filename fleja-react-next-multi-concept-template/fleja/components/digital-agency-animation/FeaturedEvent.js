@@ -20,31 +20,28 @@ export class FeaturedEvent extends Component {
                                         <div className="col-md-8">
                                             <p>
                                                 Are you interested in VR/AR, animation, VFX, gaming, and creative
-                                                coding?
-                                                UTCG
-                                                is back for another year with a lot of exciting changes as we’re going
-                                                virtual!
+                                                coding? UTCG is back for another year with a lot of exciting changes as
+                                                we’re going virtual!
                                                 <br/>
                                                 We launching <b><i>UTCG Projects</i></b>, a brand new initiative that
-                                                aims
-                                                to
-                                                bring students together in order to create and showcase some awesome
-                                                projects by the end of the term! Are you a total beginner, novice, or an
-                                                expert?
-                                                Is your goal to learn new skills, meet new people, and to create
-                                                show-stopping side projects? We’ve got you covered!
+                                                aims to bring students together in order to create and showcase some
+                                                awesome projects by the end of the term! Are you a total beginner,
+                                                novice, or an expert? Is your goal to learn new skills, meet new people,
+                                                and to create show-stopping side projects? We’ve got you covered!
                                                 <br/>
                                                 <a href="http://bit.ly/UTCGProjectsInfoSessVid"
-                                                   target="_blank"><u>Here's</u></a> a
-                                                recording of our info session on UTCG Projects held on September 11.
+                                                   target="_blank"><u>Here's</u></a> a recording of our info session on
+                                                UTCG Projects held on September 11.
                                                 <br/>
-                                                Visit our <a href="/projects"><u>Projects</u></a> page for more info!
+                                                Official registration is closed, but email us if you would still like to
+                                                get involved!
                                             </p>
                                             <a href="http://bit.ly/UTCGProjectsInfoSessVid" target="_blank"
                                                className="btn btn-primary wow fadeInUp">
                                                 Info Session Recording
                                             </a> <a href="/projects" className="btn btn-primary wow fadeInUp">More
-                                            Info</a>
+                                            Info</a> <a href="mailto:uoftcomputergraphics@gmail.com"
+                                                        className="btn btn-primary wow fadeInUp">Email Us</a>
                                         </div>
                                     </div>
                                 </div>
