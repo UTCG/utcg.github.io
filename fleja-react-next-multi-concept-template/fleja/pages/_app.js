@@ -29,8 +29,8 @@ export default withRedux(initStore)(
             return (
                 <React.Fragment>
                     <DefaultSeo
-                        title="UTCG - University of Toronto Computer Graphics"
-                        description="Fleja | React Next Multi-Concepts Templates. This has been built with React, Next.js, Express.js, and ES6+"
+                        title="UTCG - UofT Computer Graphics Club"
+                        description="University of Toronto Computer Graphics Club"
                         openGraph={{
                             type: 'website',
                             locale: 'en_IE',
