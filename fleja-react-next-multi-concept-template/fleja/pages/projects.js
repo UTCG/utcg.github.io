@@ -35,8 +35,7 @@ export class projects extends Component {
                         <div className="row h-100 align-items-center">
                             <div className="col-lg-6 col-md-12">
                                 <div className="why-choose-us-img">
-                                    {/*<img src={require("../images/1.jpg")} className="front-img" alt="img"/>*/}
-                                    {/*<img src={require("../images/2.jpg")} className="back-img" alt="img"/>*/}
+                                    <img src={require("../images/armadillo-modes-transparent.gif")} alt="armadillo"/>
                                 </div>
                             </div>
 
@@ -144,7 +143,8 @@ export class projects extends Component {
 
                             <div className="col-lg-4">
                                 <div className="about-us-image">
-                                    {/*<img src={require("../images/about2.jpg")} alt="image"/>*/}
+                                    <img src={require("../images/statue-registration.png")} alt="image"
+                                         style={{width: '75%'}}/>
                                 </div>
                             </div>
                         </div>

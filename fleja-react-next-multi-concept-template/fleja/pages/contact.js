@@ -41,7 +41,7 @@ export class index extends Component {
                                     <div className="icon">
                                         <i className="icofont-email"></i>
                                     </div>
-                                    <h3>e-Mail Us</h3>
+                                    <h3>Email Us</h3>
                                     <p><a href="#">utcomputergraphics@gmail.com</a></p>
                                     <p></p>
                                 </div>
