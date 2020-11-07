@@ -14,24 +14,6 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={require("../../images/team-image/president.jpg")} className="member-img" alt="team" />
-
-
-                                    <ul className="social-links">
-                                        <li><a href="https://github.com/Cheryl-Lao"><i className="icofont-github"></i></a></li>
-                                    </ul>
-                                </div>
-
-                                <div className="team-content">
-                                    <h3>Cheryl Lao</h3>
-                                    <span>President</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="single-team">
-                                <div className="team-image">
                                     <img src={require("../../images/team-image/vice_president_e.jpg")} className="member-img" alt="team" />
 
                                     <ul className="social-links">
@@ -41,11 +23,10 @@ export class Team extends Component {
 
                                 <div className="team-content">
                                     <h3>Roya Shams</h3>
-                                    <span>Vice President External</span>
+                                    <span>Co-President</span>
                                 </div>
                             </div>
                         </div>
-
 
 
                         <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
@@ -60,7 +41,7 @@ export class Team extends Component {
 
                                 <div className="team-content">
                                     <h3>Chanz Valmonte</h3>
-                                    <span>Vice President Internal</span>
+                                    <span>Co-President</span>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +57,8 @@ export class Team extends Component {
                                 </div>
 
                                 <div className="team-content">
-                                    <h3>Vishnu G. Varma</h3>
-                                    <span>Treasurer</span>
+                                    <h3>Sally Chiu</h3>
+                                    <span>VP Internal</span>
                                 </div>
                             </div>
                         </div>
@@ -89,17 +70,18 @@ export class Team extends Component {
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
+                                        <li><a href="https://rikingurditta.github.io"><i className="icofont-home"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/rikin-gurditta"><i className="icofont-linkedin"></i></a></li>
+                                        <li><a href="https://github.com/rikingurditta"><i className="icofont-github"></i></a></li>
                                     </ul>
                                 </div>
 
                                 <div className="team-content">
-                                    <h3>Patsy Jian</h3>
-                                    <span>Graphic Designer/Developer</span>
+                                    <h3>Rikin Gurditta</h3>
+                                    <span>VP External</span>
                                 </div>
                             </div>
                         </div>
-
-
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
@@ -115,28 +97,11 @@ export class Team extends Component {
 
                                 <div className="team-content">
                                     <h3>Akiki Liang</h3>
-                                    <span>First Year Rep/Developer</span>
+                                    <span>Projects Chair</span>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="single-team">
-                                <div className="team-image">
-                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
-                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
-
-                                    <ul className="social-links">
-                                        <li><a href="https://github.com/rikingurditta"><i className="icofont-github"></i></a></li>
-                                    </ul>
-                                </div>
-
-                                <div className="team-content">
-                                    <h3>Rikin Gurditta</h3>
-                                    <span>General Executive/Developer</span>
-                                </div>
-                            </div>
-                        </div>
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
@@ -149,25 +114,8 @@ export class Team extends Component {
                                 </div>
 
                                 <div className="team-content">
-                                    <h3>Muhammad Khattak</h3>
-                                    <span>General Executive/Developer</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="single-team">
-                                <div className="team-image">
-                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
-                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
-
-                                    <ul className="social-links">
-                                    </ul>
-                                </div>
-
-                                <div className="team-content">
-                                    <h3>Anushka Saini</h3>
-                                    <span>General Executive</span>
+                                    <h3>Patsy Jian</h3>
+                                    <span>Marketing & Design Coordinator</span>
                                 </div>
                             </div>
                         </div>
@@ -184,8 +132,8 @@ export class Team extends Component {
                                 </div>
 
                                 <div className="team-content">
-                                    <h3>Sally Chiu</h3>
-                                    <span>General Executive</span>
+                                    <h3>Louis Zhang</h3>
+                                    <span>First Year Rep</span>
                                 </div>
                             </div>
                         </div>
