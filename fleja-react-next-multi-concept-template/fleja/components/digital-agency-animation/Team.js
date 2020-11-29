@@ -15,6 +15,7 @@ export class Team extends Component {
                             <div className="single-team">
                                 <div className="team-image">
                                     <img src={require("../../images/team-image/vice_president_e.jpg")} className="member-img" alt="team" />
+                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
                                         <li><a href="https://www.instagram.com/roya_makes_stuff/"><i className="icofont-instagram"></i></a></li>
@@ -32,7 +33,7 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={require("../../images/team-image/3.jpg")} className="member-img" alt="team" />
+                                    <img src={require("../../images/chanz.jpg")} className="member-img" alt="team" />
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
@@ -49,10 +50,11 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
+                                    <img src={require("../../images/sally.jpg")} className="member-img" alt="team" />
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
+                                        <li><a href="https://www.instagram.com/sketchedbysally/"><i className="icofont-instagram"></i></a></li>
                                     </ul>
                                 </div>
 
@@ -106,7 +108,7 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
+                                    <img src={require("../../images/patsy.jpg")} className="member-img" alt="team" />
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
@@ -123,11 +125,10 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
+                                    <img src={require("../../images/louis.jpg")} className="member-img" alt="team" />
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="https://www.instagram.com/sketchedbysally/"><i className="icofont-instagram"></i></a></li>
                                     </ul>
                                 </div>
 
