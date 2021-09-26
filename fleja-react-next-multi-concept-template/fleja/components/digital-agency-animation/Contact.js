@@ -4,6 +4,9 @@ import Link from 'next/link';
 export class Contact extends Component {
     render() {
         return (
+            <style>
+            .marginLeftTest {margin-left:32px; font-weight:bold}
+            </style>
             <section className="contact-cta-area ptb-120">
                 <div className="container">
                     <div className="contact-cta-content">
@@ -18,7 +21,7 @@ export class Contact extends Component {
                         <a href="mailto:utcomputergraphics@gmail.com" className="btn btn-primary wow fadeInUp">
                             Contact Us
                         </a>
-                        <a href="https://utcg.typeform.com/to/cjLkRTEi" className="btn btn-primary wow fadeInUp" style="margin-left:32px; font-weight:bold">
+                        <a href="https://utcg.typeform.com/to/cjLkRTEi" className="btn btn-primary wow fadeInUp marginLeftTest">
                             Join Our Team
                         </a>
                     </div>
