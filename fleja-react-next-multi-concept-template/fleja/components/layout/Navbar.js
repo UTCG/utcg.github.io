@@ -116,12 +116,6 @@ export class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link activeClassName="active" href="/projects">
-                                            <a className="nav-link">Projects</a>
-                                        </Link>
-                                    </li>
-
-                                    <li className="nav-item">
                                         <Link activeClassName="active" href="/team">
                                             <a className="nav-link">Team</a>
                                         </Link>
