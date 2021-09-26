@@ -3,19 +3,19 @@ import React, { Component } from 'react';
 // The event descriptions that go in the 'Recent Post' column of the footer
 const recentEvents = [
     {
-        eventLink: "https://www.facebook.com/events/1839793892820474/",
-        eventTitle: "The VFX Behind the Mandalorian",
-        eventDate: "31 Jan 2020"
+        eventLink: "https://www.facebook.com/events/796622597953772/",
+        eventTitle: "WebAR for Beginners",
+        eventDate: "30 Apr 2021"
     },
     {
-        eventLink: "https://www.facebook.com/events/568018043769485/",
-        eventTitle: "SIGGRAPH Student Volunteer Info Session",
-        eventDate: "9 Jan 2020"
+        eventLink: "https://www.facebook.com/events/157836092848183/",
+        eventTitle: "The Co-op Experience @ AMD",
+        eventDate: "17 Mar 2021"
     },
     {
-        eventLink: "https://www.facebook.com/events/690040014820484/",
-        eventTitle: "Computer Graphics at Ubisoft",
-        eventDate: "12 Nov 2019"
+        eventLink: "https://www.facebook.com/events/922921815181574/",
+        eventTitle: "Rapid Fire Talks",
+        eventDate: "25 Feb 2021"
     }
 ];
 
