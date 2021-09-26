@@ -10,7 +10,7 @@ export class PromoVideo extends Component {
                         <div className="container">
                             <div className="row h-100 justify-content-center align-items-center">
                                 <div className="col-lg-7 col-md-12 hero-content" style={{textAlign: 'center'}}>
-                                    <ReactPlayer url="https://youtu.be/fiJIP2-Tylw" width="100%" style={{margin: '0px 0px 15px 0px'}}/>
+                                    <ReactPlayer url="https://youtu.be/hCkRD1PvznI" width="100%" style={{margin: '0px 0px 15px 0px'}}/>
                                     <h2 className="wow fadeInUp">What is UTCG?</h2>
                                 </div>
                             </div>
