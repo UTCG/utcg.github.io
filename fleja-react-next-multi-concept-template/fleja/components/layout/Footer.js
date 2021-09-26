@@ -29,10 +29,10 @@ const quickLinks = [
         title: "Events",
         linkTo: "/freelancer-portfolio-animation"
     },
-    {
-        title: "Projects",
-        linkTo: "/projects"
-    },
+//     {
+//         title: "Projects",
+//         linkTo: "/projects"
+//     },
     {
         title: "Team",
         linkTo: "/team"
