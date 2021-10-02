@@ -21,9 +21,6 @@ export class Contact extends Component {
                         <a href="mailto:utcomputergraphics@gmail.com" className="btn btn-primary wow fadeInUp">
                             Contact Us
                         </a>
-                        //<a href="https://utcg.typeform.com/to/cjLkRTEi" className="btn btn-primary wow fadeInUp marginLeftTest">
-                        //    Join Our Team
-                        //</a>
                     </div>
                 </div>
 
