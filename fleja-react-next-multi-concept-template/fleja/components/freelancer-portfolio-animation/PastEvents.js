@@ -19,6 +19,28 @@ export class BlogBody extends Component {
                         disableImagesLoaded={false} // default false
                         updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
                     >
+
+
+                    <div className="col-lg-4 col-md-6 grid-items">
+						<div className="single-blog-post">
+							<div className="blog-image">
+								<a href="#">
+									<img src={require("../../images/featured-event-image/blender.jpg")} alt="image" />
+								</a>
+
+								<div className="post-tag">
+									<a href="#">Workshop</a>
+								</div>
+							</div>
+
+							<div className="blog-post-content">
+								<span className="date">29 Oct., 2021</span>
+								<h3><a href="https://www.facebook.com/events/875874843302115/">Blender Violin Workshop</a></h3>
+								<a href="https://www.facebook.com/events/875874843302115/" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
+							</div>
+						</div>
+                    </div>
+
                     <div className="col-lg-4 col-md-6 grid-items">
                         <div className="single-blog-post">
                             <div className="blog-image">

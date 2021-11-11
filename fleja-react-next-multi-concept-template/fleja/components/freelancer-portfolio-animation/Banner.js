@@ -18,8 +18,7 @@ export class Banner extends Component {
                                 <div className="row align-items-center justify-content-center wow fadeInUp">
                                     <div className="col-md-6">
                                         <p>
-                                            UTCG's events will be entirely online this year! That means all the computer
-                                            graphics action from the safety of your own home.
+                                            UTCG's events this year will be a mixture of online and in-person!
                                         </p>
                                     </div>
                                 </div>
