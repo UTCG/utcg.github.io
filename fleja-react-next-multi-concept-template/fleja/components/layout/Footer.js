@@ -27,7 +27,7 @@ const quickLinks = [
     },
     {
         title: "Events",
-        linkTo: "/freelancer-portfolio-animation"
+        linkTo: "/events"
     },
 //     {
 //         title: "Projects",

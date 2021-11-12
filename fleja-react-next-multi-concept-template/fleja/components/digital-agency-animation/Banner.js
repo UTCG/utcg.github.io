@@ -20,7 +20,7 @@ export class Banner extends Component {
                                         <h1 className="wow fadeInUp">Welcome to UTCG!</h1>
                                         <p className="wow fadeInDown">
                                             The University of Toronto Computer Graphics Club
-                                            has a mission is to create a supportive learning community that provides
+                                            has a mission to create a supportive learning community that provides
                                             graphics-related workshops, research talks, field trips and social events
                                             for people who are interested in any part of computer graphics. This year
                                             we're going virtual!
