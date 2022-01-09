@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBIcon } from 'mdb-react-ui-kit'
+import 'font-awesome/css/font-awesome.min.css';
 
 // The event descriptions that go in the 'Recent Post' column of the footer
 const recentEvents = [
