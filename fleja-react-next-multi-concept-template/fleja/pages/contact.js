@@ -58,6 +58,17 @@ export class index extends Component {
                                 </div>
                             </div>
 
+                            <div className="col-lg-4 col-md-6">
+                                <div className="contact-info-box">
+                                    <div className="icon">
+                                    <i class="bi bi-discord"></i>
+                                    </div>
+                                    <h3>Join our Discord!</h3>
+                                    <a href="https://discord.gg/TjjDYRT6Rz">Invite Link</a>
+                                    <p></p>
+                                </div>
+                            </div>
+
                             <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                                 <div className="contact-info-box">
                                     <div className="icon">

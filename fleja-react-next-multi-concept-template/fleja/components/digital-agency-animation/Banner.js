@@ -28,6 +28,8 @@ export class Banner extends Component {
                                         <a href="http://eepurl.com/dGyWHr?fbclid=IwAR1VSrHcZcBTUEcFPBovD0sJ2mcxKPaSFr0qrXL_kkM_XRv02tRMbDncwx4"
                                            target="_blank" className="btn btn-primary wow fadeInLeft">Add me to Mailing
                                             List</a>
+                                        <a href="https://discord.gg/TjjDYRT6Rz"
+                                           target="_blank" className="btn btn-primary wow fadeInLeft">Join the Discord</a>
                                     </div>
                                 </div>
                             </div>
@@ -50,6 +52,14 @@ export class Banner extends Component {
                                 <i className="icofont-instagram"></i>
 
                                 <span>Instagram</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://discord.gg/TjjDYRT6Rz">
+                                <i class="bi bi-discord"></i>
+
+                                <span>Discord</span>
                             </a>
                         </li>
                     </ul>
