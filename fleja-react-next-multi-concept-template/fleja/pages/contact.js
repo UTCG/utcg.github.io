@@ -62,7 +62,7 @@ export class index extends Component {
                             <div className="col-lg-4 col-md-6">
                                 <div className="contact-info-box">
                                     <div className="icon">
-                                        <MDBIcon fab icon="discord" />
+                                        <MDBIcon fab icon="discord" size="lg"/>
                                     </div>
                                     <h3>Join our Discord!</h3>
                                     <a href="https://discord.gg/TjjDYRT6Rz">Invite Link</a>

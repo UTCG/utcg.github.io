@@ -68,8 +68,7 @@ export class Footer extends Component {
                                     {/* <li><a href="#"><i className="icofont-twitter"></i></a></li> */}
                                     <li><a href="https://www.instagram.com/utcomputergraphics/" target="_blank"><i className="icofont-instagram"></i></a></li>
                                     {/* <li><a href="#"><i className="icofont-pinterest"></i></a></li> */}
-                                    <li><a href="https://discord.gg/TjjDYRT6Rz" target="_blank"><MDBIcon fab icon="discord" /></a></li>
-                                    {/* <li><a href="#"><i className="icofont-pinterest"></i></a></li> */}
+                                    <li><a href="https://discord.gg/TjjDYRT6Rz" target="_blank"><i MDBIcon fab icon="discord" size="lg"></i></a></li>
                                 </ul>
                             </div>
                         </div>

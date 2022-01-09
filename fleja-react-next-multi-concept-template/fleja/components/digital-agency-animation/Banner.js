@@ -59,7 +59,7 @@ export class Banner extends Component {
 
                         <li>
                             <a href="https://discord.gg/TjjDYRT6Rz">
-                                <MDBIcon fab icon="discord" />
+                                <MDBIcon fab icon="discord" size="lg"/>
 
                                 <span>Discord</span>
                             </a>
