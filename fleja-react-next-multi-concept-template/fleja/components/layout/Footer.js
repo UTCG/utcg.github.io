@@ -68,7 +68,7 @@ export class Footer extends Component {
                                     {/* <li><a href="#"><i className="icofont-twitter"></i></a></li> */}
                                     <li><a href="https://www.instagram.com/utcomputergraphics/" target="_blank"><i className="icofont-instagram"></i></a></li>
                                     {/* <li><a href="#"><i className="icofont-pinterest"></i></a></li> */}
-                                    <li><a href="https://www.facebook.com/UTComputerGraphics" target="_blank"><i className="icofont-facebook"></i></a></li>
+                                    <li><a href="https://discord.gg/TjjDYRT6Rz" target="_blank"><i class="fab fa-discord"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ export class Footer extends Component {
                     <div className="copyright-area">
                         <div className="row">
                             <div className="col-lg-6 col-md-6">
-                                <p>Copyright @2019. All rights reserved.</p>
+                                <p>Copyright @2022. All rights reserved.</p>
                             </div>
 
                             {/* <div className="col-lg-6 col-md-6 text-right"> */}
