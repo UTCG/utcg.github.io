@@ -27,7 +27,7 @@ export class Banner extends Component {
                                             we're going virtual!
                                         </p>
                                         <a href="http://eepurl.com/dGyWHr?fbclid=IwAR1VSrHcZcBTUEcFPBovD0sJ2mcxKPaSFr0qrXL_kkM_XRv02tRMbDncwx4"
-                                           target="_blank" className="btn btn-primary wow fadeInLeft">Add me to Mailing
+                                           target="_blank" className="btn btn-primary wow fadeInLeft" style="margin-right:10px">Add me to Mailing
                                             List</a>
 
                                         <a href="https://discord.gg/TjjDYRT6Rz"
