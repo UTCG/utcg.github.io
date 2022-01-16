@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
-import Banner from '../components/agency-portfolio/Banner';
-import Portfolio from '../components/agency-portfolio/Portfolio';
-import Partner from '../components/agency-portfolio/Partner';
+import GalleryBanner from '../components/custom/GalleryBanner';
+import Portfolio from '../components/custom/Portfolio';
 
 export class index extends Component {
     render() {
         return (
             <React.Fragment>
                 <Navbar />
-                <Banner />
+                <GalleryBanner />
                 <Portfolio />
-                {/* <Partner /> */}
-
                 <Footer />
             </React.Fragment>
         );

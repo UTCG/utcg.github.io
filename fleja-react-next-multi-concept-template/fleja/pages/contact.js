@@ -1,14 +1,14 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Link from 'next/link';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import MailingListForm from "../components/custom/MailingListForm";
 import { MDBIcon } from 'mdb-react-ui-kit'
 
-export class index extends Component {
+export class Contact extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 <Navbar/>
                 <div className="page-title-area item-bg1">
                     <div className="container">
@@ -32,7 +32,6 @@ export class index extends Component {
                         <img src={require("../images/shapes/corner_bot_left.png")} alt="shape"/>
                     </div>
                 </div>
-
 
                 <section className="contact-info-area pt-120">
                     <div className="container">
@@ -90,9 +89,9 @@ export class index extends Component {
                 </section>
 
                 <Footer/>
-            </React.Fragment>
+            </>
         );
     }
 }
 
-export default index;
+export default Contact;

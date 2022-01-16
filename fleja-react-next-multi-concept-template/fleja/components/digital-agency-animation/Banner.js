@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { MDBIcon } from 'mdb-react-ui-kit'
 
 export class Banner extends Component {
@@ -27,7 +27,7 @@ export class Banner extends Component {
                                             we're going virtual!
                                         </p>
                                         <a href="http://eepurl.com/dGyWHr?fbclid=IwAR1VSrHcZcBTUEcFPBovD0sJ2mcxKPaSFr0qrXL_kkM_XRv02tRMbDncwx4"
-                                           target="_blank" className="btn btn-primary wow fadeInLeft" style="margin-right:10px">Add me to Mailing
+                                           target="_blank" className="btn btn-primary wow fadeInLeft" style={{marginRight: '10px'}}>Add me to Mailing
                                             List</a>
 
                                         <a href="https://discord.gg/TjjDYRT6Rz"
@@ -44,7 +44,6 @@ export class Banner extends Component {
                         <li>
                             <a href="https://www.facebook.com/UTComputerGraphics">
                                 <i className="icofont-facebook"></i>
-
                                 <span>Facebook</span>
                             </a>
                         </li>
@@ -68,35 +67,35 @@ export class Banner extends Component {
                 </div>
 
                 <div className="shape1">
-                    <img src={require("../../images/shapes/cube_corner.png")} alt="shape"/>
+                    <img src="/images/shapes/cube_corner.png" alt="shape" />
                 </div>
 
                 <div className="shape2">
-                    <img src={require("../../images/shapes/corner_top_rt.png")} alt="shape"/>
+                    <img src="/images/shapes/corner_top_rt.png" alt="shape" />
                 </div>
                 <div className="shape3">
-                    <img src={require("../../images/shapes/corner_bot_left.png")} alt="shape"/>
+                    <img src="/images/shapes/corner_bot_left.png" alt="shape" />
                 </div>
                 <div className="shape4">
-                    <img src={require("../../images/shapes/cone_grey.png")} alt="shape"/>
+                    <img src="/images/shapes/cone_grey.png" alt="shape" />
                 </div>
                 <div className="shape5">
-                    <img src={require("../../images/shapes/5.png")} alt="shape"/>
+                    <img src="/images/shapes/5.png" alt="shape" />
                 </div>
                 <div className="shape6">
-                    <img src={require("../../images/shapes/6.png")} alt="shape"/>
+                    <img src="/images/shapes/6.png" alt="shape" />
                 </div>
                 <div className="shape7">
-                    <img src={require("../../images/shapes/ring_cyan.png")} alt="shape"/>
+                    <img src="/images/shapes/ring_cyan.png" alt="shape" />
                 </div>
                 <div className="shape8">
-                    <img src={require("../../images/shapes/teapot_grey.png")} alt="shape"/>
+                    <img src="/images/shapes/teapot_grey.png" alt="shape" />
                 </div>
                 <div className="shape9 rotateme">
-                    <img src={require("../../images/shapes/9.png")} alt="shape"/>
+                    <img src="/images/shapes/9.png" alt="shape" />
                 </div>
                 <div className="shape10 rotateme">
-                    <img src={require("../../images/shapes/10.png")} alt="shape"/>
+                    <img src="/images/shapes/10.png" alt="shape" />
                 </div>
                 <div className="circle-shape1">
                     <img src={require("../../images/shapes/bunny_grey.png")} alt="shape" className="w-150"/>

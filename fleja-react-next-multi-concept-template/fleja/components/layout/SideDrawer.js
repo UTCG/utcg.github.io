@@ -35,8 +35,8 @@ export class SideDrawer extends Component {
                                     </span>
                                 </button>
 
-                                <h2 className="modal-title" id="myModalLabel2"><a href="index.html">
-                                    <img src={require("../../images/logo.png")} alt="logo" /></a>
+                                <h2 onClick={this.closeDrawer} className="modal-title" id="myModalLabel2">
+                                    <a href="/"><img src="/images/logo.png" alt="logo" /></a>
                                 </h2>
                             </div>
 
@@ -80,7 +80,7 @@ export class SideDrawer extends Component {
                                         <li>
                                             <i className="icofont-email"></i>
                                             Email
-                                            <span><a href="#">admin@artflex.com</a></span>
+                                            <span><a href="#">admin@fleja.com</a></span>
                                         </li>
                                         <li>
                                             <i className="icofont-phone"></i>

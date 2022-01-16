@@ -70,7 +70,7 @@ export class Navbar extends Component {
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link href="/home">
                                 <a className="navbar-brand">
-                                    <img src={require("../../images/logo.png")} alt="logo" />
+                                    <img src="/images/logo.png" alt="logo" />
                                 </a>
                             </Link>
 
@@ -83,7 +83,7 @@ export class Navbar extends Component {
                                 aria-expanded="false"
                                 aria-label="Toggle navigation"
                             >
-                                <img src={require("../../images/nav_menu_icon.png")}/>
+                                <span className="navbar-toggler-icon"></span>
                             </button>
 
                             <div className={classOne} id="navbarSupportedContent">

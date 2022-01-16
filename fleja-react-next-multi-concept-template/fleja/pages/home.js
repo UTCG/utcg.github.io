@@ -3,24 +3,11 @@ const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wowjs') : null
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
-import Banner from '../components/digital-agency-animation/Banner';
-import About from '../components/digital-agency-animation/About';
-import Services from '../components/digital-agency-animation/Services';
-import WhyChooseUs from '../components/digital-agency-animation/WhyChooseUs';
-import Crafting from '../components/digital-agency-animation/Crafting';
-import Works from '../components/digital-agency-animation/Works';
-import Feedback from '../components/digital-agency-animation/Feedback';
-import HowWeWork from '../components/digital-agency-animation/HowWeWork';
-import Team from '../components/digital-agency-animation/Team';
-import Cta from '../components/digital-agency-animation/Cta';
-import Skills from '../components/digital-agency-animation/Skills';
-import Funfacts from '../components/digital-agency-animation/Funfacts';
-import Blog from '../components/digital-agency-animation/Blog';
-import Partner from '../components/digital-agency-animation/Partner';
-import Contact from '../components/digital-agency-animation/Contact';
-import BigCalendarComponent from '../components/digital-agency-animation/BigCalendarComponent';
-import FeaturedEvent from '../components/digital-agency-animation/FeaturedEvent';
-import PromoVideo from "../components/digital-agency-animation/PromoVideo";
+import HomepageBanner from '../components/custom/HomepageBanner';
+import Contact from '../components/custom/Contact';
+import BigCalendarComponent from '../components/custom/BigCalendarComponent';
+import FeaturedEvent from '../components/custom/FeaturedEvent';
+import PromoVideo from "../components/custom/PromoVideo";
 import AnnouncementBanner from "../components/custom/AnnouncementBanner";
 
 export class index extends Component {
@@ -40,10 +27,9 @@ export class index extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <Banner />
+                <HomepageBanner />
                 {/*<FeaturedEvent />*/}
                 <PromoVideo/>
-                {/*<Services />*/}
                 <Contact />
                 <Footer />
             </React.Fragment>

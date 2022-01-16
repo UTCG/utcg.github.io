@@ -3,21 +3,10 @@ const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wowjs') : null
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
-import Banner from '../components/freelancer-portfolio-animation/Banner';
-import Features from '../components/freelancer-portfolio-animation/Features';
-import About from '../components/freelancer-portfolio-animation/About';
-import Services from '../components/freelancer-portfolio-animation/Services';
-import Cta from '../components/freelancer-portfolio-animation/Cta';
-import Skills from '../components/freelancer-portfolio-animation/Skills';
-import Funfacts from '../components/freelancer-portfolio-animation/Funfacts';
-import Works from '../components/freelancer-portfolio-animation/Works';
-import Feedback from '../components/freelancer-portfolio-animation/Feedback';
-import Blog from '../components/freelancer-portfolio-animation/Blog';
-import BigCalendarComponent from '../components/freelancer-portfolio-animation/BigCalendarComponent';
-import PastEvents from '../components/freelancer-portfolio-animation/PastEvents';
-import CalendarHeading from '../components/freelancer-portfolio-animation/CalendarHeading';
-import PastEventsHeading from '../components/freelancer-portfolio-animation/PastEventsHeading';
-import Partner from '../components/digital-agency-animation/Partner';
+import EventsBanner from '../components/custom/EventsBanner';
+import Cta from '../components/custom/Cta';
+import BigCalendarComponent from '../components/custom/BigCalendarComponent';
+import PastEvents from '../components/custom/PastEvents';
 export class index extends Component {
 
     componentDidMount(){
@@ -35,15 +24,11 @@ export class index extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <Banner />
-                <CalendarHeading />
+                <EventsBanner />
                 <BigCalendarComponent />
-                <PastEventsHeading />
                 <PastEvents />
                 <Cta />
                 <Footer />
-
-
             </React.Fragment>
         );
     }
