@@ -6,6 +6,7 @@ const options = {
     loop:true,
     nav:false,
     dots:true,
+    margin: 30,
     autoplayHoverPause:true,
     autoplay:true,
     responsive:{
@@ -109,22 +110,22 @@ export class Services extends Component {
                 </div>
 
                 <div className="shape10 rotateme">
-                    <img src={require("../../images/shapes/10.png")} alt="shape" />
+                    <img src="/images/shapes/10.png" alt="shape" />
                 </div>
                 <div className="shape6">
-                    <img src={require("../../images/shapes/6.png")} alt="shape" />
+                    <img src="/images/shapes/6.png" alt="shape" />
                 </div>
                 <div className="shape2">
-                    <img src={require("../../images/shapes/2.png")} alt="shape" />
+                    <img src="/images/shapes/2.png" alt="shape" />
                 </div>
                 <div className="shape3">
-                    <img src={require("../../images/shapes/3.png")} alt="shape" />
+                    <img src="/images/shapes/3.png" alt="shape" />
                 </div>
                 <div className="shape23">
-                    <img src={require("../../images/shapes/23.png")} alt="shape" />
+                    <img src="/images/shapes/23.png" alt="shape" />
                 </div>
                 <div className="shape21">
-                    <img src={require("../../images/shapes/21.png")} alt="shape" />
+                    <img src="/images/shapes/21.png" alt="shape" />
                 </div>
             </section>
         );

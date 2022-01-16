@@ -15,21 +15,31 @@ import Blog from '../components/freelancer/Blog';
 export class index extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 <Navbar />
+
                 <Banner />
+
                 <Features />
+
                 <About />
+
                 <Services />
+
                 <Cta />
+
                 <Skills />
+
                 <Funfacts />
+
                 <Works />
+
                 <Feedback />
+                
                 <Blog />
 
                 <Footer />
-            </React.Fragment>
+            </>
         );
     }
 }

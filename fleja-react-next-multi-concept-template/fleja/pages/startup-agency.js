@@ -20,7 +20,7 @@ import Contact from '../components/startup-agency/Contact';
 export class index extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 <Navbar />
                 <Banner />
                 <Boxes />
@@ -37,9 +37,8 @@ export class index extends Component {
                 <Blog />
                 <Partner />
                 <Contact />
-
                 <Footer />
-            </React.Fragment>
+            </>
         );
     }
 }

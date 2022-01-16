@@ -3,7 +3,6 @@ import Link from "next/link";
 import { connect } from 'react-redux';
 import { removeItem, addQuantity, subtractQuantity } from '../../store/actions/cartActions';
 import { ToastContainer, toast, Slide } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 class CartContent extends Component {
 

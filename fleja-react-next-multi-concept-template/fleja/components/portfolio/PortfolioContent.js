@@ -4,12 +4,12 @@ import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 
 const images = [
-    require('../../images/work-image/1.jpg'),
-    require('../../images/work-image/6.jpg'),
-    require('../../images/work-image/21.jpg'),
-    require('../../images/work-image/20.jpg'),
-    require('../../images/work-image/19.jpg'),
-    require('../../images/work-image/18.jpg')
+    '/images/work-image/1.jpg',
+    '/images/work-image/6.jpg',
+    '/images/work-image/21.jpg',
+    '/images/work-image/20.jpg',
+    '/images/work-image/19.jpg',
+    '/images/work-image/18.jpg'
 ]
 
 export class PortfolioContent extends Component {
@@ -27,14 +27,14 @@ export class PortfolioContent extends Component {
                     <div className="row">
                         <div className="col-lg-6 col-md-6">
                             <div className="single-work">
-                                <img src={require("../../images/work-image/1.jpg")} alt="image" />
+                                <img src="/images/work-image/1.jpg" alt="image" />
 
                                 <div className="works-content">
-                                    <h3><a href="#">Digital Marketing</a></h3>
+                                    <h3><a href="/portfolio-details">Digital Marketing</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>
 
-                                <a href="#" className="link-btn"><i className="icofont-external-link"></i></a>
+                                <a href="/portfolio-details" className="link-btn"><i className="icofont-external-link"></i></a>
 
                                 <Link href="#">
                                     <a 
@@ -49,14 +49,14 @@ export class PortfolioContent extends Component {
 
                         <div className="col-lg-6 col-md-6">
                             <div className="single-work">
-                                <img src={require("../../images/work-image/6.jpg")} alt="image" />
+                                <img src="/images/work-image/6.jpg" alt="image" />
 
                                 <div className="works-content">
-                                    <h3><a href="#">Digital Marketing</a></h3>
+                                    <h3><a href="/portfolio-details">Digital Marketing</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>
 
-                                <a href="#" className="link-btn"><i className="icofont-external-link"></i></a>
+                                <a href="/portfolio-details" className="link-btn"><i className="icofont-external-link"></i></a>
 
                                 <Link href="#">
                                     <a 
@@ -71,14 +71,14 @@ export class PortfolioContent extends Component {
 
                         <div className="col-lg-6 col-md-6">
                             <div className="single-work">
-                                <img src={require("../../images/work-image/21.jpg")} alt="image" />
+                                <img src="/images/work-image/21.jpg" alt="image" />
 
                                 <div className="works-content">
-                                    <h3><a href="#">Digital Marketing</a></h3>
+                                    <h3><a href="/portfolio-details">Digital Marketing</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>
 
-                                <a href="#" className="link-btn"><i className="icofont-external-link"></i></a>
+                                <a href="/portfolio-details" className="link-btn"><i className="icofont-external-link"></i></a>
 
                                 <Link href="#">
                                     <a 
@@ -112,14 +112,14 @@ export class PortfolioContent extends Component {
 
                         <div className="col-lg-6 col-md-6">
                             <div className="single-work">
-                                <img src={require("../../images/work-image/20.jpg")} alt="image" />
+                                <img src="/images/work-image/20.jpg" alt="image" />
 
                                 <div className="works-content">
-                                    <h3><a href="#">Digital Marketing</a></h3>
+                                    <h3><a href="/portfolio-details">Digital Marketing</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>
 
-                                <a href="#" className="link-btn"><i className="icofont-external-link"></i></a>
+                                <a href="/portfolio-details" className="link-btn"><i className="icofont-external-link"></i></a>
 
                                 <Link href="#">
                                     <a 
@@ -134,14 +134,14 @@ export class PortfolioContent extends Component {
 
                         <div className="col-lg-6 col-md-6">
                             <div className="single-work">
-                                <img src={require("../../images/work-image/19.jpg")} alt="image" />
+                                <img src="/images/work-image/19.jpg" alt="image" />
 
                                 <div className="works-content">
-                                    <h3><a href="#">Digital Marketing</a></h3>
+                                    <h3><a href="/portfolio-details">Digital Marketing</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>
 
-                                <a href="#" className="link-btn"><i className="icofont-external-link"></i></a>
+                                <a href="/portfolio-details" className="link-btn"><i className="icofont-external-link"></i></a>
 
                                 <Link href="#">
                                     <a 
@@ -156,14 +156,14 @@ export class PortfolioContent extends Component {
 
                         <div className="col-lg-6 col-md-6">
                             <div className="single-work">
-                                <img src={require("../../images/work-image/18.jpg")} alt="image" />
+                                <img src="/images/work-image/18.jpg" alt="image" />
 
                                 <div className="works-content">
-                                    <h3><a href="#">Digital Marketing</a></h3>
+                                    <h3><a href="/portfolio-details">Digital Marketing</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>
 
-                                <a href="#" className="link-btn"><i className="icofont-external-link"></i></a>
+                                <a href="/portfolio-details" className="link-btn"><i className="icofont-external-link"></i></a>
 
                                 <Link href="#">
                                     <a 

@@ -25,26 +25,26 @@ export class About extends Component {
                         
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src={require("../../images/about.jpg")} alt="about-image" />
+                                <img src="/images/about.jpg" alt="about-image" />
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="circle-top rotateme">
-                    <img src={require("../../images/circle-shape.png")} alt="circle" />
+                    <img src="/images/circle-shape.png" alt="circle" />
                 </div>
                 <div className="circle-bottom rotateme">
-                    <img src={require("../../images/circle-shape.png")} alt="circle" />
+                    <img src="/images/circle-shape.png" alt="circle" />
                 </div>
                 <div className="shape6">
-                    <img src={require("../../images/shapes/6.png")} alt="shape" />
+                    <img src="/images/shapes/6.png" alt="shape" />
                 </div>
                 <div className="shape10 rotateme">
-                    <img src={require("../../images/shapes/10.png")} alt="shape" />
+                    <img src="/images/shapes/10.png" alt="shape" />
                 </div>
                 <div className="shape7">
-                    <img src={require("../../images/shapes/7.png")} alt="shape" />
+                    <img src="/images/shapes/7.png" alt="shape" />
                 </div>
             </section>
         );

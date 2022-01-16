@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Link from 'next/link';
 
 export class Banner extends Component {
@@ -29,46 +29,44 @@ export class Banner extends Component {
                     </div>
                 </div>
 
-                <div class="shape1">
-                    <img src={require("../../images/shapes/cube_corner.png")} alt="shape"/>
+                <div className="shape1">
+                    <img src="/images/shapes/cube_corner.png" alt="shape" />
                 </div>
-                <div class="shape2">
-                    <img src={require("../../images/shapes/corner_top_rt.png")} alt="shape"/>
+                <div className="shape2">
+                    <img src="/images/shapes/corner_top_rt.png" alt="shape" />
                 </div>
-                <div class="shape3">
-                    <img src={require("../../images/shapes/corner_bot_left.png")} alt="shape"/>
+                <div className="shape3">
+                    <img src="/images/shapes/corner_bot_left.png" alt="shape" />
                 </div>
-                <div class="shape4">
-                    <img src={require("../../images/shapes/4.png")} alt="shape"/>
+                <div className="shape4">
+                    <img src="/images/shapes/4.png" alt="shape" />
                 </div>
-                <div class="shape5">
-                    <img src={require("../../images/shapes/5.png")} alt="shape"/>
+                <div className="shape5">
+                    <img src="/images/shapes/5.png" alt="shape" />
                 </div>
-                <div class="shape6">
-                    <img src={require("../../images/shapes/6.png")} alt="shape"/>
+                <div className="shape6">
+                    <img src="/images/shapes/6.png" alt="shape" />
                 </div>
-                <div class="shape7">
-                    <img src={require("../../images/shapes/7.png")} alt="shape"/>
+                <div className="shape7">
+                    <img src="/images/shapes/7.png" alt="shape" />
                 </div>
-                <div class="shape8">
-                    <img src={require("../../images/shapes/8.png")} alt="shape"/>
+                <div className="shape8">
+                    <img src="/images/shapes/8.png" alt="shape" />
                 </div>
-                <div class="shape9 rotateme">
-                    <img src={require("../../images/shapes/9.png")} alt="shape"/>
+                <div className="shape9 rotateme">
+                    <img src="/images/shapes/9.png" alt="shape" />
                 </div>
-                <div class="shape10 rotateme">
-                    <img src={require("../../images/shapes/10.png")} alt="shape"/>
+                <div className="shape10 rotateme">
+                    <img src="/images/shapes/10.png" alt="shape" />
                 </div>
-
-
                 <div className="circle-shape1">
-                    <img src={require("../../images/shapes/circle1.png")} alt="shape"/>
+                    <img src="/images/shapes/circle1.png" alt="shape" />
                 </div>
                 <div className="circle-shape2">
-                    <img src={require("../../images/shapes/circle2.png")} alt="shape"/>
+                    <img src="/images/shapes/circle2.png" alt="shape" />
                 </div>
                 <div className="circle-shape3">
-                    <img src={require("../../images/shapes/circle3.png")} alt="shape"/>
+                    <img src="/images/shapes/circle3.png" alt="shape" />
                 </div>
             </div>
         );

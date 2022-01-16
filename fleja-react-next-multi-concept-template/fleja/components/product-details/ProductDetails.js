@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import Link from 'next/link';
 import { addToCart, addQuantityWithNumber } from '../../store/actions/cartActions';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import dynamic from 'next/dynamic';
 const OwlCarousel = dynamic(import('react-owl-carousel3'));
 
@@ -110,6 +109,7 @@ export class ProductDetails extends Component {
         return (
             <section className="shop-details-area ptb-120">
                 <ToastContainer />
+
                 <div className="container">
                     <div className="shop-details">
                         <div className="row h-100 justify-content-center align-items-center">
@@ -119,15 +119,15 @@ export class ProductDetails extends Component {
                                     {...options}
                                 >
                                     <div className="product-img">
-                                        <a href="#"><img src={require("../../images/shop-image/1.jpg")} alt="product-img" /></a>
+                                        <a href="#"><img src="/images/shop-image/1.jpg" alt="product-img" /></a>
                                     </div>
 
                                     <div className="product-img">
-                                        <a href="#"><img src={require("../../images/shop-image/2.jpg")} alt="product-img" /></a>
+                                        <a href="#"><img src="/images/shop-image/2.jpg" alt="product-img" /></a>
                                     </div>
 
                                     <div className="product-img">
-                                        <a href="#"><img src={require("../../images/shop-image/3.jpg")} alt="product-img" /></a>
+                                        <a href="#"><img src="/images/shop-image/3.jpg" alt="product-img" /></a>
                                     </div>
                                 </OwlCarousel> : ''}
                             </div>
@@ -296,7 +296,7 @@ export class ProductDetails extends Component {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-product">
                                     <div className="product-image">
-                                        <a href="#"><img src={require("../../images/shop-image/1.jpg")} alt="image" /></a>
+                                        <a href="#"><img src="/images/shop-image/1.jpg" alt="image" /></a>
                                     </div>
 
                                     <div className="product-content">
@@ -329,7 +329,7 @@ export class ProductDetails extends Component {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-product">
                                     <div className="product-image">
-                                        <a href="#"><img src={require("../../images/shop-image/2.jpg")} alt="image" /></a>
+                                        <a href="#"><img src="/images/shop-image/2.jpg" alt="image" /></a>
                                     </div>
 
                                     <div className="product-content">
@@ -362,7 +362,7 @@ export class ProductDetails extends Component {
                             <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                                 <div className="single-product">
                                     <div className="product-image">
-                                        <a href="#"><img src={require("../../images/shop-image/3.jpg")} alt="image" /></a>
+                                        <a href="#"><img src="/images/shop-image/3.jpg" alt="image" /></a>
                                     </div>
 
                                     <div className="product-content">

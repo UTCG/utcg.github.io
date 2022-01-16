@@ -20,26 +20,41 @@ import Contact from '../components/digital-agency/Contact';
 export class index extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 <Navbar />
+
                 <Banner />
+
                 <About />
+
                 <Services />
+
                 <ChooseUs />
+
                 <Crafting />
+
                 <Works />
+
                 <Feedback />
+
                 <HowWeWork />
+
                 <Team />
+
                 <Cta />
+
                 <Skills />
+
                 <Funfacts />
+
                 <Blog />
+
                 <Partner />
+                
                 <Contact />
 
                 <Footer />
-            </React.Fragment>
+            </>
         );
     }
 }

@@ -119,7 +119,7 @@ function CheckoutForm({total, shipping}) {
 										<label>Country <span className="required">*</span></label>
 										
                                         <div className="select-box">
-											<select className="form-control">
+											<select className="form-select">
 												<option value="5">United Arab Emirates</option>
 												<option value="1">China</option>
 												<option value="2">United Kingdom</option>
@@ -253,14 +253,14 @@ function CheckoutForm({total, shipping}) {
                                     <div className="col-lg-12 col-md-12">
                                         <div className="form-check">
                                             <input type="checkbox" className="form-check-input" id="create-an-account" />
-                                            <label className="form-check-label" for="create-an-account">Create an account?</label>
+                                            <label className="form-check-label" htmlFor="create-an-account">Create an account?</label>
                                         </div>
                                     </div>
 
                                     <div className="col-lg-12 col-md-12">
                                         <div className="form-check">
                                             <input type="checkbox" className="form-check-input" id="ship-different-address" />
-                                            <label className="form-check-label" for="ship-different-address">Ship to a different address?</label>
+                                            <label className="form-check-label" htmlFor="ship-different-address">Ship to a different address?</label>
                                         </div>
                                     </div>
 

@@ -78,8 +78,8 @@ export class Skills extends Component {
 
                         <div className="col-lg-6 col-md-12">
                             <div className="skill-image">
-                                <img src={require("../../images/man.png")} className="man-image" alt="man" />
-                                <img src={require("../../images/shapes/16.png")} className="back-image" alt="shape" />
+                                <img src="/images/man.png" className="man-image" alt="man" />
+                                <img src="../../images/shapes/16.png" className="back-image" alt="shape" />
                             </div>
                         </div>
                     </div>

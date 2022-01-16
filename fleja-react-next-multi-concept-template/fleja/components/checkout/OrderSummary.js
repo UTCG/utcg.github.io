@@ -68,17 +68,17 @@ export class OrderSummary extends Component {
                     <div className="payment-method">
                         <p>
                             <input type="radio" id="direct-bank-transfer" name="radio-group" />
-                            <label for="direct-bank-transfer">Direct Bank Transfer</label>
+                            <label htmlFor="direct-bank-transfer">Direct Bank Transfer</label>
 
                             Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
                         </p>
                         <p>
                             <input type="radio" id="paypal" name="radio-group" />
-                            <label for="paypal">PayPal</label>
+                            <label htmlFor="paypal">PayPal</label>
                         </p>
                         <p>
                             <input type="radio" id="cash-on-delivery" name="radio-group" />
-                            <label for="cash-on-delivery">Cash on Delivery</label>
+                            <label htmlFor="cash-on-delivery">Cash on Delivery</label>
                         </p>
                     </div>
 

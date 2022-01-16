@@ -4,6 +4,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const keys = require("./server/config/keys");
 const stripe = require('stripe')(keys.stripeSecretKey);
+const mailer = require('./mailer');
 
 const dev = process.env.NODE_ENV !== 'production';
 
@@ -32,6 +33,15 @@ app.prepare().then(() => {
             source: req.body.token.id
         });
         res.send({})
+    });
+
+    server.post('/api/contact', (req, res) => {
+        const { name, email, phone, subject, text } = req.body;
+        mailer({name, email, phone, subject, text}).then(() => {
+            res.send('success')
+        }).catch(error => {
+            res.status(422).send(error)
+        });
     });
 
     const PORT = process.env.PORT || 3000;

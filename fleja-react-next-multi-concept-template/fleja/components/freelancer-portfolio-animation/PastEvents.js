@@ -25,7 +25,7 @@ export class BlogBody extends Component {
 						<div className="single-blog-post">
 							<div className="blog-image">
 								<a href="#">
-									<img src={require("../../images/featured-event-image/blender.jpg")} alt="image" />
+									<img src={"/images/featured-event-image/blender.jpg"} alt="image" />
 								</a>
 
 								<div className="post-tag">
@@ -45,7 +45,7 @@ export class BlogBody extends Component {
                         <div className="single-blog-post">
                             <div className="blog-image">
                                 <a href="#">
-                                    <img src={require("../../images/featured-event-image/rapid-fire-talks.jpg")} alt="image" />
+                                    <img src={"/images/featured-event-image/rapid-fire-talks.jpg"} alt="image" />
                                 </a>
 
                                 <div className="post-tag">
@@ -65,7 +65,7 @@ export class BlogBody extends Component {
                         <div className="single-blog-post">
                             <div className="blog-image">
                                 <a href="#">
-                                    <img src={require("../../images/featured-event-image/the-mandalorian.jpg")} alt="image" />
+                                    <img src={"/images/featured-event-image/the-mandalorian.jpg"} alt="image" />
                                 </a>
 
                                 <div className="post-tag">
@@ -85,7 +85,7 @@ export class BlogBody extends Component {
                         <div className="single-blog-post">
                             <div className="blog-image">
                                 <a href="#">
-                                    <img src={require("../../images/featured-event-image/siggraph.jpg")} alt="image" />
+                                    <img src={"/images/featured-event-image/siggraph.jpg"} alt="image" />
                                 </a>
 
                                 <div className="post-tag">
@@ -105,7 +105,7 @@ export class BlogBody extends Component {
                         <div className="single-blog-post">
                             <div className="blog-image">
                                 <a href="#">
-                                    <img src={require("../../images/featured-event-image/computer-graphics.jpg")} alt="image" />
+                                    <img src={"/images/featured-event-image/computer-graphics.jpg"} alt="image" />
                                 </a>
 
                                 <div className="post-tag">
@@ -125,7 +125,7 @@ export class BlogBody extends Component {
                         <div className="single-blog-post">
                             <div className="blog-image">
                                 <a href="#">
-                                    <img src={require("../../images/featured-event-image/vfx-startrek.jpg")} alt="image" />
+                                    <img src={"/images/featured-event-image/vfx-startrek.jpg"} alt="image" />
                                 </a>
 
                                 <div className="post-tag">
@@ -145,7 +145,7 @@ export class BlogBody extends Component {
                         <div className="single-blog-post">
                             <div className="blog-image">
                                 <a href="#">
-                                    <img src={require("../../images/featured-event-image/job-fair.jpg")} alt="image" />
+                                    <img src={"/images/featured-event-image/job-fair.jpg"} alt="image" />
                                 </a>
 
                                 <div className="post-tag">
@@ -165,7 +165,7 @@ export class BlogBody extends Component {
                         <div className="single-blog-post">
                             <div className="blog-image">
                                 <a href="#">
-                                    <img src={require("../../images/featured-event-image/animation-festival-screening.jpg")} alt="image" />
+                                    <img src={"/images/featured-event-image/animation-festival-screening.jpg"} alt="image" />
                                 </a>
 
                                 <div className="post-tag">
@@ -185,7 +185,7 @@ export class BlogBody extends Component {
                         <div className="single-blog-post">
                             <div className="blog-image">
                                 <a href="#">
-                                    <img src={require("../../images/featured-event-image/cookie.jpg")} alt="image" />
+                                    <img src={"/images/featured-event-image/cookie.jpg"} alt="image" />
                                 </a>
 
                                 <div className="post-tag">
@@ -205,7 +205,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/autodesk-tour.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/autodesk-tour.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -225,7 +225,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/azure-vision.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/azure-vision.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -245,7 +245,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/shadertoy.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/shadertoy.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -265,7 +265,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/siggraph2.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/siggraph2.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -285,7 +285,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/ux-design.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/ux-design.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -305,7 +305,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/holography.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/holography.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -325,7 +325,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/handwriting-parser-workshop.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/handwriting-parser-workshop.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -345,7 +345,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/autodesk-tour.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/autodesk-tour.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -365,7 +365,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/movie-night.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/movie-night.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -385,7 +385,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/research-talk.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/research-talk.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -405,7 +405,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/kickoff.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/kickoff.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -425,7 +425,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/design-fabricate.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/design-fabricate.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -445,7 +445,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/pixar-story.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/pixar-story.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -465,7 +465,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/photoshop-workshop.jpg")} alt="image" />
+                                        <img src={"/images/featured-event-image/photoshop-workshop.jpg"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
@@ -485,7 +485,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/featured-event-image/dgp-lab-tour.png")} alt="image" />
+                                        <img src={"/images/featured-event-image/dgp-lab-tour.png"} alt="image" />
                                     </a>
 
                                     <div className="post-tag">

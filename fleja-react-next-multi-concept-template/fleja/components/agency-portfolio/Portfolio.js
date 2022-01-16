@@ -1,13 +1,23 @@
 import React, { Component } from 'react';
 import Masonry from 'react-masonry-component';
+import Link from 'next/link'
 
 const masonryOptions = {
     transitionDuration: 0
 };
- 
+
+const portfolio_images = [
+    { 
+        image: "/images/lego_alain.jpg",
+        title: "SIGGRAPH Info Session 2020", 
+        description: "A photo of some of the exec team from the SIGGRAPH 2020 Information Session!",
+        relatedLink: "https://www.facebook.com/events/568018043769485/"
+    },
+];
+
 export class Portfolio extends Component {
     render() {
-        const images = this.props.images.map((image, idx) => {
+        const images = portfolio_images.map((image, idx) => {
             return (
                 <div className="col-lg-3 col-md-4 col-sm-6 item" key={idx}>
                     <div className="portfolio-item">
@@ -48,19 +58,6 @@ export class Portfolio extends Component {
             </section>
         );
     }
-}
-
-// Add images to the gallery here
-// Provide any relevant information (note: relatedLink not required )
-Portfolio.defaultProps = {
-    images: [
-        { 
-            image: require("../../images/lego_alain.jpg"), 
-            title: "SIGGRAPH Info Session 2020", 
-            description: "A photo of some of the exec team from the SIGGRAPH 2020 Information Session!",
-            relatedLink: "https://www.facebook.com/events/568018043769485/"
-        },
-    ]
 }
 
 export default Portfolio;

@@ -21,13 +21,13 @@ export class projects extends Component {
                         </ul>
                     </div>
                     <div className="shape1">
-                        <img src={require("../images/shapes/cube_corner.png")} alt="shape"/>
+                        <img src={"/images/shapes/cube_corner.png"} alt="shape"/>
                     </div>
                     <div className="shape2">
-                        <img src={require("../images/shapes/corner_top_rt.png")} alt="shape"/>
+                        <img src={"/images/shapes/corner_top_rt.png"} alt="shape"/>
                     </div>
                     <div className="shape3">
-                        <img src={require("../images/shapes/corner_bot_left.png")} alt="shape"/>
+                        <img src={"/images/shapes/corner_bot_left.png"} alt="shape"/>
                     </div>
                 </div>
                 <section className="why-choose-us-area ptb-120">
@@ -35,7 +35,7 @@ export class projects extends Component {
                         <div className="row h-100 align-items-center">
                             <div className="col-lg-6 col-md-12">
                                 <div className="why-choose-us-img">
-                                    <img src={require("../images/armadillo-modes-transparent.gif")} alt="armadillo"/>
+                                    <img src={"/images/armadillo-modes-transparent.gif"} alt="armadillo"/>
                                 </div>
                             </div>
 
@@ -62,13 +62,13 @@ export class projects extends Component {
                     </div>
 
                     <div className="circle-top rotateme">
-                        <img src={require("../images/circle-shape.png")} alt="circle"/>
+                        <img src={"/images/circle-shape.png"} alt="circle"/>
                     </div>
                     <div className="circle-bottom rotateme">
-                        <img src={require("../images/circle-shape.png")} alt="circle"/>
+                        <img src={"/images/circle-shape.png"} alt="circle"/>
                     </div>
                     <div className="circle-dot">
-                        <img src={require("../images/shapes/dot-shape1.png")} alt="shape"/>
+                        <img src={"/images/shapes/dot-shape1.png"} alt="shape"/>
                     </div>
                 </section>
                 <section className="about-us-area ptb-120">
@@ -143,7 +143,7 @@ export class projects extends Component {
 
                             <div className="col-lg-4">
                                 <div className="about-us-image">
-                                    <img src={require("../images/statue-registration.png")} alt="image"
+                                    <img src={"/images/statue-registration.png"} alt="image"
                                          style={{width: '75%'}}/>
                                 </div>
                             </div>

@@ -1,3 +1,5 @@
+import React from 'react';
+
 class GoTop extends React.Component {
     _isMounted = false;
     constructor(props) {
@@ -50,9 +52,9 @@ class GoTop extends React.Component {
 
     render(){
         return (
-            <React.Fragment>
+            <>
                 {this.renderGoTopIcon()}
-            </React.Fragment>
+            </>
         )
     }
 }

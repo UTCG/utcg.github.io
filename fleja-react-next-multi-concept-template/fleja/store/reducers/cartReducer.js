@@ -18,73 +18,73 @@ const initState = {
             id: 1,
             title: "Pencil",
             price: 99,
-            image: require("../../images/shop-image/1.jpg")
+            image: "/images/shop-image/1.jpg"
         },
         {
             id: 2,
             title: "T-Shirt",
             price: 120,
-            image: require("../../images/shop-image/2.jpg")
+            image: "/images/shop-image/2.jpg"
         },
         {
             id: 3,
             title: "Casual Shoe",
             price: 160,
-            image: require("../../images/shop-image/3.jpg")
+            image: "/images/shop-image/3.jpg"
         },
         {
             id: 4,
             title: "Drop Side Watch",
             price: 130,
-            image: require("../../images/shop-image/4.jpg")
+            image: "/images/shop-image/4.jpg"
         },
         {
             id: 5,
             title: "Chair",
             price: 90,
-            image: require("../../images/shop-image/5.jpg")
+            image: "/images/shop-image/5.jpg"
         },
         {
             id: 6,
             title: "Card",
             price: 180,
-            image: require("../../images/shop-image/6.jpg")
+            image: "/images/shop-image/6.jpg"
         },
         {
             id: 7,
             title: "Book Cover",
             price: 330,
-            image: require("../../images/shop-image/7.jpg")
+            image: "/images/shop-image/7.jpg"
         },
         {
             id: 8,
             title: "Wall Watch",
             price: 140,
-            image: require("../../images/shop-image/8.jpg")
+            image: "/images/shop-image/8.jpg"
         },
         {
             id: 9,
             title: "Drop Side Watch",
             price: 430,
-            image: require("../../images/shop-image/9.jpg")
+            image: "/images/shop-image/9.jpg"
         },
         {
             id: 10,
             title: "Camera Stand",
             price: 650,
-            image: require("../../images/shop-image/9.jpg")
+            image: "/images/shop-image/9.jpg"
         },
         {
             id: 11,
             title: "Drop Side Watch",
             price: 230,
-            image: require("../../images/shop-image/5.jpg")
+            image: "/images/shop-image/5.jpg"
         },
         {
             id: 12,
             title: "Drop Side Watch",
             price: 670,
-            image: require("../../images/shop-image/7.jpg")
+            image: "/images/shop-image/7.jpg"
         }
     ],
     addedItems:[],

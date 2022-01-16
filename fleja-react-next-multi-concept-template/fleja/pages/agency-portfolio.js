@@ -8,14 +8,17 @@ import Partner from '../components/agency-portfolio/Partner';
 export class index extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 <Navbar />
+
                 <Banner />
+
                 <Portfolio />
-                {/* <Partner /> */}
+                
+                <Partner />
 
                 <Footer />
-            </React.Fragment>
+            </>
         );
     }
 }

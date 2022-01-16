@@ -33,7 +33,7 @@ export class Features extends Component {
 
                         <div className="col-lg-6">
                             <div className="features-image text-center">
-                                <img src={require("../../images/1.jpg")} alt="image" />
+                                <img src="/images/1.jpg" alt="image" />
                             </div>
                         </div>
                     </div>

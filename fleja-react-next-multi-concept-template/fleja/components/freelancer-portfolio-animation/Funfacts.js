@@ -36,11 +36,11 @@ export class Funfacts extends Component {
                     </div> 
                 </div>
 
-                <div class="circle-top rotateme">
-                    <img src={require('../../images/circle-shape.png')} alt="circle" />
+                <div className="circle-top rotateme">
+                    <img src='/images/circle-shape.png' alt="circle" />
                 </div>
-			    <div class="circle-bottom rotateme">
-                    <img src={require('../../images/circle-shape.png')} alt="circle" />
+			    <div className="circle-bottom rotateme">
+                    <img src='/images/circle-shape.png' alt="circle" />
                 </div>
             </section>
         );

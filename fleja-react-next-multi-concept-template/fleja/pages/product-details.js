@@ -7,8 +7,9 @@ import ProductDetails from '../components/product-details/ProductDetails';
 export class index extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 <Navbar />
+
                 <div className="page-title-area item-bg2">
                     <div className="container">
                         <h1>Shop Details</h1>
@@ -22,9 +23,11 @@ export class index extends Component {
                         </ul>
                     </div>
                 </div>
+
                 <ProductDetails />
+                
                 <Footer />
-            </React.Fragment>
+            </>
         );
     }
 }

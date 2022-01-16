@@ -6,7 +6,7 @@ export class Team extends Component {
             <section className="team-area bg-image ptb-120">
                 <div className="container">
                     <div className="section-title">
-                        <span>Meet the Team</span>
+                        <span>Team Member</span>
                         <h2>We have quality full team</h2>
                     </div>
 
@@ -14,13 +14,25 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={require("../../images/team-image/1.jpg")} className="member-img" alt="team" />
-                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
+                                    <img src="/images/team-image/1.jpg" className="member-img" alt="team" />
+                                    <img src="/images/team-image/team-back.jpg" className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                        <li>
+                                            <a href="https://www.facebook.com/">
+                                                <i className="icofont-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/">
+                                                <i className="icofont-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/">
+                                                <i className="icofont-instagram"></i>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -34,13 +46,25 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
-                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
+                                    <img src="/images/team-image/2.jpg" className="member-img" alt="team" />
+                                    <img src="/images/team-image/team-back.jpg" className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                        <li>
+                                            <a href="https://www.facebook.com/">
+                                                <i className="icofont-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/">
+                                                <i className="icofont-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/">
+                                                <i className="icofont-instagram"></i>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -54,13 +78,25 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={require("../../images/team-image/3.jpg")} className="member-img" alt="team" />
-                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
+                                    <img src="/images/team-image/3.jpg" className="member-img" alt="team" />
+                                    <img src="/images/team-image/team-back.jpg" className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                        <li>
+                                            <a href="https://www.facebook.com/">
+                                                <i className="icofont-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/">
+                                                <i className="icofont-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/">
+                                                <i className="icofont-instagram"></i>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -74,19 +110,19 @@ export class Team extends Component {
                 </div>
 
                 <div className="circle-top rotateme">
-                    <img src={require("../../images/circle-shape.png")} alt="circle" />
+                    <img src="/images/circle-shape.png" alt="circle" />
                 </div>
                 <div className="shape2">
-                    <img src={require("../../images/shapes/2.png")} alt="shape" />
+                    <img src="/images/shapes/2.png" alt="shape" />
                 </div>
                 <div className="shape10 rotateme">
-                    <img src={require("../../images/shapes/10.png")} alt="shape" />
+                    <img src="/images/shapes/10.png" alt="shape" />
                 </div>
                 <div className="circle-bottom rotateme">
-                    <img src={require("../../images/circle-shape.png")} alt="circle" />
+                    <img src="/images/circle-shape.png" alt="circle" />
                 </div>
                 <div className="shape6">
-                    <img src={require("../../images/shapes/6.png")} alt="shape" />
+                    <img src="/images/shapes/6.png" alt="shape" />
                 </div>
             </section>
         );

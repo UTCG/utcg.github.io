@@ -6,6 +6,7 @@ const options = {
     loop:true,
     nav:false,
     dots:true,
+    margin: 30,
     autoplayHoverPause:true,
     autoplay:true,
     responsive:{
@@ -40,72 +41,58 @@ export class Services extends Component {
                         <h2>Interactive services offered by our team</h2>
                     </div>
 
-                    <div className="row">
-                        {this.state.display ? <OwlCarousel 
-                            className="services-slides owl-carousel owl-theme"
-                            {...options}
-                        >
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-services-box">
-                                    <div className="icon">
-                                        <i className="icofont-pie-chart"></i>
-                                    </div>
-                                    <h3>User Experience</h3>
-                                    <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
-                                </div>
+                    {this.state.display ? <OwlCarousel 
+                        className="services-slides owl-carousel owl-theme"
+                        {...options}
+                    >
+                        <div className="single-services-box">
+                            <div className="icon">
+                                <i className="icofont-pie-chart"></i>
                             </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-services-box">
-                                    <div className="icon">
-                                        <i className="icofont-brand-designfloat"></i>
-                                    </div>
-                                    <h3>Interface Design</h3>
-                                    <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
-                                </div>
+                            <h3>User Experience</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
+                        </div>
+                        
+                        <div className="single-services-box">
+                            <div className="icon">
+                                <i className="icofont-brand-designfloat"></i>
                             </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-services-box">
-                                    <div className="icon">
-                                        <i className="icofont-stock-mobile"></i>
-                                    </div>
-                                    <h3>Mobile Apps</h3>
-                                    <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
-                                </div>
+                            <h3>Interface Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
+                        </div>
+                        
+                        <div className="single-services-box">
+                            <div className="icon">
+                                <i className="icofont-stock-mobile"></i>
                             </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-services-box">
-                                    <div className="icon">
-                                        <i className="icofont-live-support"></i>
-                                    </div>
-                                    <h3>Help When Need</h3>
-                                    <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
-                                </div>
+                            <h3>Mobile Apps</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
+                        </div>
+                    
+                        <div className="single-services-box">
+                            <div className="icon">
+                                <i className="icofont-live-support"></i>
                             </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-services-box">
-                                    <div className="icon">
-                                        <i className="icofont-travelling"></i>
-                                    </div>
-                                    <h3>We Can Travel</h3>
-                                    <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
-                                </div>
+                            <h3>Help When Need</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
+                        </div>
+        
+                        <div className="single-services-box">
+                            <div className="icon">
+                                <i className="icofont-travelling"></i>
                             </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-services-box">
-                                    <div className="icon">
-                                        <i className="icofont-delivery-time"></i>
-                                    </div>
-                                    <h3>Timely Deliverables</h3>
-                                    <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
-                                </div>
+                            <h3>We Can Travel</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
+                        </div>
+                
+                        <div className="single-services-box">
+                            <div className="icon">
+                                <i className="icofont-delivery-time"></i>
                             </div>
-                        </OwlCarousel> : ''}
-                    </div>
+                            <h3>Timely Deliverables</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
+                        </div>
+                    </OwlCarousel> : ''}
                 </div>
             </section>
         );

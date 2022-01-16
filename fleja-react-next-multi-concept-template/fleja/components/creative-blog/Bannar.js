@@ -51,14 +51,14 @@ export class Bannar extends Component {
                     <div className="col-lg-12">
                         <div className="single-blog-box">
                             <div className="blog-image">
-                                <a href="#">
-                                    <img src={require("../../images/blog-home-image/1.jpg")} alt="img" />
+                                <a href="/blog-details">
+                                    <img src="/images/blog-home-image/1.jpg" alt="img" />
                                 </a>
                             </div>
 
                             <div className="blog-post-content">
-                                <div className="tags"><a href="#">Agency</a></div>
-                                <h3><a href="#">How to Develop a Unique (& Memorable) Brand Identity in 2019</a></h3>
+                                <div className="tags"><a href="/blog-details">Agency</a></div>
+                                <h3><a href="/blog-details">How to Develop a Unique (& Memorable) Brand Identity in 2019</a></h3>
 
                                 <ul>
                                     <li><i className="icofont-ui-calendar"></i> March 29, 2019</li>
@@ -72,14 +72,14 @@ export class Bannar extends Component {
                     <div className="col-lg-12">
                         <div className="single-blog-box">
                             <div className="blog-image">
-                                <a href="#">
-                                    <img src={require("../../images/blog-home-image/2.jpg")} alt="img" />
+                                <a href="/blog-details">
+                                    <img src="/images/blog-home-image/2.jpg" alt="img" />
                                 </a>
                             </div>
 
                             <div className="blog-post-content">
-                                <div className="tags"><a href="#">Public</a></div>
-                                <h3><a href="#">20 PR Tools for Monitoring & Managing Media Relations in 2019</a></h3>
+                                <div className="tags"><a href="/blog-details">Public</a></div>
+                                <h3><a href="/blog-details">20 PR Tools for Monitoring & Managing Media Relations in 2019</a></h3>
 
                                 <ul>
                                     <li><i className="icofont-ui-calendar"></i> March 14, 2019</li>
@@ -93,14 +93,14 @@ export class Bannar extends Component {
                     <div className="col-lg-12">
                         <div className="single-blog-box">
                             <div className="blog-image">
-                                <a href="#">
-                                    <img src={require("../../images/blog-home-image/3.jpg")} alt="img" />
+                                <a href="/blog-details">
+                                    <img src="/images/blog-home-image/3.jpg" alt="img" />
                                 </a>
                             </div>
 
                             <div className="blog-post-content">
-                                <div className="tags"><a href="#">Talent</a></div>
-                                <h3><a href="#">15 Employee Feedback Tools to Track Your Team's Engagement in 2019</a></h3>
+                                <div className="tags"><a href="/blog-details">Talent</a></div>
+                                <h3><a href="/blog-details">15 Employee Feedback Tools to Track Your Team's Engagement in 2019</a></h3>
 
                                 <ul>
                                     <li><i className="icofont-ui-calendar"></i> March 11, 2019</li>
@@ -114,14 +114,14 @@ export class Bannar extends Component {
                     <div className="col-lg-12">
                         <div className="single-blog-box">
                             <div className="blog-image">
-                                <a href="#">
-                                    <img src={require("../../images/blog-home-image/4.jpg")} alt="img" />
+                                <a href="/blog-details">
+                                    <img src="/images/blog-home-image/4.jpg" alt="img" />
                                 </a>
                             </div>
 
                             <div className="blog-post-content">
-                                <div className="tags"><a href="#">User</a></div>
-                                <h3><a href="#">15 Usability Testing Tools for Optimizing Your Site in 2019</a></h3>
+                                <div className="tags"><a href="/blog-details">User</a></div>
+                                <h3><a href="/blog-details">15 Usability Testing Tools for Optimizing Your Site in 2019</a></h3>
 
                                 <ul>
                                     <li><i className="icofont-ui-calendar"></i> March 01, 2019</li>

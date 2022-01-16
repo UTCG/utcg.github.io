@@ -6,8 +6,9 @@ import Footer from '../components/layout/Footer';
 export class index extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 <Navbar />
+                
                 <div className="page-title-area item-bg1">
                     <div className="container">
                         <h1>Blog Details</h1>
@@ -28,7 +29,7 @@ export class index extends Component {
                             <div className="col-lg-8 col-md-12">
                                 <div className="blog-details">
                                     <div className="article-img">
-                                        <img src={require("../images/blog-image/1.jpg")} alt="blog-details" />
+                                        <img src="/images/blog-image/1.jpg" alt="blog-details" />
                                         <div className="date">20 <br /> Jan</div>
                                     </div>
                                     
@@ -43,7 +44,7 @@ export class index extends Component {
                                             
                                         <h3>The Most Popular New top Business Apps</h3>
                                         
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In necessitatibus provident facere, reiciendis voluptate dolorem iste consectetur veniam aperiam suscipit ad ipsum et labore a repellendus debitis explicabo quisquam obcaecati....</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In necessitatibus provident facere, reiciendis voluptate dolorem iste consectetur veniam aperiam suscipit ad ipsum et labore a repellendus debitis explicabo quisquam obcaecati</p>
                                         
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque eum alias debitis suscipit, sint dignissimos minus quisquam recusandae nostrum quas eligendi odit, fugiat eius rem. Cumque, labore placeat! Velit, vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste? Aut ipsam consequuntur non rem tenetur dolore consequatur ducimus a labore excepturi quae nisi, quisquam, maxime voluptates magnam aliquid. Cupiditate!</p>
                                         
@@ -81,7 +82,7 @@ export class index extends Component {
                                     <h3>Comments</h3>
                                     <div className="single-comment">
                                         <div className="comment-img">
-                                            <img src={require("../images/client-image/1.jpg")} alt="client" />
+                                            <img src="/images/client-image/1.jpg" alt="client" />
                                         </div>
                                         <div className="comment-content">
                                             <h4>John Smith</h4>
@@ -93,7 +94,7 @@ export class index extends Component {
                                     
                                     <div className="single-comment left-m">
                                         <div className="comment-img">
-                                            <img src={require("../images/client-image/2.jpg")} alt="client" />
+                                            <img src="/images/client-image/2.jpg" alt="client" />
                                         </div>
                                         <div className="comment-content">
                                             <h4>Doe John</h4>
@@ -105,7 +106,7 @@ export class index extends Component {
                                     
                                     <div className="single-comment">
                                         <div className="comment-img">
-                                            <img src={require("../images/client-image/3.jpg")} alt="client" />
+                                            <img src="/images/client-image/3.jpg" alt="client" />
                                         </div>
                                         <div className="comment-content">
                                             <h4>Steven Doe</h4>
@@ -117,7 +118,7 @@ export class index extends Component {
                                     
                                     <div className="single-comment">
                                         <div className="comment-img">
-                                            <img src={require("../images/client-image/1.jpg")} alt="client" />
+                                            <img src="/images/client-image/1.jpg" alt="client" />
                                         </div>
                                         <div className="comment-content">
                                             <h4>John Cina</h4>
@@ -157,10 +158,10 @@ export class index extends Component {
                             </div>
 
                             <div className="col-lg-4 col-md-12">
-                                <div className="sidebar">
+                                <div className="sidebar pl-5">
                                     <div className="widget widget_search">
                                         <form>
-                                            <input type="text" className="form-control" placeholder="Search here..." />
+                                            <input type="text" className="form-control" placeholder="Search here." />
                                             <button type="submit"><i className="icofont-ui-search"></i></button>
                                         </form>
                                     </div>
@@ -189,38 +190,31 @@ export class index extends Component {
 
                                         <ul>
                                             <li>
-                                                <a href="#">
-                                                    <img src={require("../images/blog-image/1.jpg")} alt="image" />
+                                                <a href="/blog-details">
+                                                    <img src="/images/blog-image/1.jpg" alt="image" />
                                                 </a>
-
-                                                <h5><a href="#">The Most Popular New top Business Apps</a></h5>
+                                                <h5><a href="/blog-details">The Most Popular New top Business Apps</a></h5>
                                                 <p className="date">21 March, 2019</p>
                                             </li>
-
                                             <li>
-                                                <a href="#">
-                                                    <img src={require("../images/blog-image/2.jpg")} alt="image" />
+                                                <a href="/blog-details">
+                                                    <img src="/images/blog-image/2.jpg" alt="image" />
                                                 </a>
-
-                                                <h5><a href="#">3 WooCommerce Plugins to Boost Sales</a></h5>
+                                                <h5><a href="/blog-details">3 WooCommerce Plugins to Boost Sales</a></h5>
                                                 <p className="date">20 March, 2019</p>
                                             </li>
-
                                             <li>
-                                                <a href="#">
-                                                    <img src={require("../images/blog-image/3.jpg")} alt="image" />
+                                                <a href="/blog-details">
+                                                    <img src="/images/blog-image/3.jpg" alt="image" />
                                                 </a>
-
-                                                <h5><a href="#">The Best Marketing top Management Tools</a></h5>
+                                                <h5><a href="/blog-details">The Best Marketing top Management Tools</a></h5>
                                                 <p className="date">27 March, 2019</p>
                                             </li>
-
                                             <li>
-                                                <a href="#">
-                                                    <img src={require("../images/blog-image/4.jpg")} alt="image" />
+                                                <a href="/blog-details">
+                                                    <img src="/images/blog-image/4.jpg" alt="image" />
                                                 </a>
-
-                                                <h5><a href="#">How to Build a Business Dashboard</a></h5>
+                                                <h5><a href="/blog-details">How to Build a Business Dashboard</a></h5>
                                                 <p className="date">27 January, 2019</p>
                                             </li>
                                         </ul>
@@ -270,7 +264,7 @@ export class index extends Component {
                 </section>
 
                 <Footer />
-            </React.Fragment>
+            </>
         );
     }
 }

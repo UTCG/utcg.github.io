@@ -14,8 +14,9 @@ import Contact from '../components/about/Contact';
 export class index extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 <Navbar />
+
                 <div className="page-title-area item-bg1">
                     <div className="container">
                         <h1>About Us</h1>
@@ -28,28 +29,26 @@ export class index extends Component {
                             <li>About Us</li>
                         </ul>
                     </div>
-                    <div className="shape1">
-                        <img src={require("../images/shapes/cube_corner.png")} alt="shape" />
-                    </div>
-                    <div className="shape2">
-                        <img src={require("../images/shapes/corner_top_rt.png")} alt="shape" />
-                    </div>
-                    <div className="shape3">
-                        <img src={require("../images/shapes/corner_bot_left.png")} alt="shape" />
-                    </div>
                 </div>
 
-                <WhyChooseUs />
                 <AboutUsArea />
-                <Funfacts />
+                
                 <Cta />
-                {/* <Skills /> */}
-                {/* <Team /> */}
-                {/* <Feedback /> */}
-                {/* <Contact /> */}
+
+                <WhyChooseUs />
+
+                <Funfacts />
+
+                <Skills />
+
+                <Team />
+
+                <Feedback />
+                
+                <Contact />
 
                 <Footer />
-            </React.Fragment>
+            </>
         );
     }
 }

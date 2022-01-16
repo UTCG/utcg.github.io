@@ -8,28 +8,28 @@ export class WhyChooseUs extends Component {
                     <div className="row h-100 align-items-center">
                         <div className="col-lg-6 col-md-12">
                             <div className="why-choose-us-img">
-                                <img src={require("../../images/1.jpg")} className="front-img" alt="img" />
-                                <img src={require("../../images/2.jpg")} className="back-img" alt="img" />
+                                <img src="/images/1.jpg" className="front-img" alt="img" />
+                                <img src="/images/2.jpg" className="back-img" alt="img" />
                             </div>
                         </div>
 
                         <div className="col-lg-6 col-md-12">
                             <div className="why-choose-us-content">
                                 <div className="section-title">
-                                    <span>Who Are We</span>
-                                    <h2>Who Are We?</h2>
+                                    <span>WHy Choose Us</span>
+                                    <h2>We are creative, designers & developers</h2>
                                 </div>
-                                <p>University of Toronto Computer Graphics Club (UTCG) is a student driven club that aims to explore computer graphics from the computer science and artistic perspective. </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</p>
 
-                                <p>Our mission is to create a supportive learning community that provides graphics-related workshops, research talks, field trips and social events for people who are interested in any part of computer graphics!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</p>
 
-                                <p>We want to create opportunities and resources for computer science students and anyone who is interested in similar fields.</p>
-                                <a href="../team" className="btn btn-primary wow fadeInUp">Meet The Team</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                                <a href="#" className="btn btn-primary wow fadeInUp">About Us</a>
                             </div>
                         </div>
                     </div>
 
-                    {/* <div className="why-choose-inner-area">
+                    <div className="why-choose-inner-area">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
                                 <div className="section-title">
@@ -65,19 +65,19 @@ export class WhyChooseUs extends Component {
                                     <h3>Brand Marketing</h3>
                                     <p>Quis ipsum suspendisse ultrices gravida. Risus commodo  maecenas accumsan lacus vel facilisis labore dolore magna aliqua.</p>
                                 </div>
-                            </div> */}
-                        {/* </div>
-                    </div> */}
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="circle-top rotateme">
-                    <img src={require("../../images/circle-shape.png")} alt="circle" />
+                    <img src="/images/circle-shape.png" alt="circle" />
                 </div>
                 <div className="circle-bottom rotateme">
-                    <img src={require("../../images/circle-shape.png")} alt="circle" />
+                    <img src="/images/circle-shape.png" alt="circle" />
                 </div>
                 <div className="circle-dot">
-                    <img src={require("../../images/shapes/dot-shape1.png")} alt="shape" />
+                    <img src="/images/shapes/dot-shape1.png" alt="shape" />
                 </div>
             </section>
         );

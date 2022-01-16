@@ -9,8 +9,8 @@ export class Skills extends Component {
                         <div className="col-lg-6 col-md-12">
                             <div className="our-skill">
                                 <div className="section-title">
-                                    <span className="wow fadeInUp">Why Choose Us</span>
-								    <h2 className="wow fadeInDown">Some of Our Skills</h2>
+                                    <span>Why Choose Us</span>
+                                    <h2>Some of Our Skills</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>
 
@@ -20,12 +20,14 @@ export class Skills extends Component {
                                             <h3 className="skill-title">Branding</h3>
 
                                             <div className="skill-percentage">
-                                                <div className="count-box"><span className="count-text" data-speed="2000" data-stop="95">0</span>%</div>
+                                                <div className="count-box"><span className="count-text">75</span>%</div>
                                             </div>
                                         </div>
 
                                         <div className="skill-bar">
-                                            <div className="bar-inner"><div className="bar progress-line" data-width="95"></div></div>
+                                            <div className="progress">
+                                                <div className="progress-bar" style={{width: "75%"}} role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     
@@ -33,11 +35,13 @@ export class Skills extends Component {
                                         <div className="skill-header">
                                             <h3 className="skill-title">Marketing</h3>
 
-                                            <div className="skill-percentage"><div className="count-box"><span className="count-text" data-speed="2000" data-stop="90">0</span>%</div></div>
+                                            <div className="skill-percentage"><div className="count-box"><span className="count-text">85</span>%</div></div>
                                         </div>
 
                                         <div className="skill-bar">
-                                            <div className="bar-inner"><div className="bar progress-line" data-width="90"></div></div>
+                                            <div className="progress">
+                                                <div className="progress-bar" style={{width: "85%"}} role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     
@@ -45,11 +49,13 @@ export class Skills extends Component {
                                         <div className="skill-header">
                                             <h3 className="skill-title">Design</h3>
 
-                                            <div className="skill-percentage"><div className="count-box"><span className="count-text" data-speed="2000" data-stop="95">0</span>%</div></div>
+                                            <div className="skill-percentage"><div className="count-box"><span className="count-text">90</span>%</div></div>
                                         </div>
 
                                         <div className="skill-bar">
-                                            <div className="bar-inner"><div className="bar progress-line" data-width="95"></div></div>
+                                            <div className="progress">
+                                                <div className="progress-bar" style={{width: "90%"}} role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -57,11 +63,13 @@ export class Skills extends Component {
                                         <div className="skill-header">
                                             <h3 className="skill-title">Development</h3>
 
-                                            <div className="skill-percentage"><div className="count-box"><span className="count-text" data-speed="2000" data-stop="93">0</span>%</div></div>
+                                            <div className="skill-percentage"><div className="count-box"><span className="count-text">95</span>%</div></div>
                                         </div>
 
                                         <div className="skill-bar">
-                                            <div className="bar-inner"><div className="bar progress-line" data-width="93"></div></div>
+                                            <div className="progress">
+                                                <div className="progress-bar" style={{width: "95%"}} role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -70,8 +78,8 @@ export class Skills extends Component {
 
                         <div className="col-lg-6 col-md-12">
                             <div className="skill-image">
-                                <img src={require("../../images/man.png")} className="man-image" alt="man" />
-                                <img src={require("../../images/shapes/16.png")} className="back-image" alt="shape" />
+                                <img src="/images/man.png" className="man-image" alt="man" />
+                                <img src="../../images/shapes/16.png" className="back-image" alt="shape" />
                             </div>
                         </div>
                     </div>

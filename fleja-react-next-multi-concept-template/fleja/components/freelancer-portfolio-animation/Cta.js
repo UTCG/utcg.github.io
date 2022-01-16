@@ -14,19 +14,19 @@ export class Cta extends Component {
                 </div>
 
                 <div className="shape5">
-                    <img src={require("../../images/shapes/5.png")} alt="shape" />
+                    <img src="/images/shapes/5.png" alt="shape" />
                 </div>
                 <div className="shape7">
-                    <img src={require("../../images/shapes/7.png")} alt="shape" />
+                    <img src="/images/shapes/7.png" alt="shape" />
                 </div>
                 <div className="shape9 rotateme">
-                    <img src={require("../../images/shapes/9.png")} alt="shape" />
+                    <img src="/images/shapes/9.png" alt="shape" />
                 </div>
                 <div className="shape14 rotateme">
-                    <img src={require("../../images/shapes/14.png")} alt="shape" />
+                    <img src="/images/shapes/14.png" alt="shape" />
                 </div>
                 <div className="shape15 rotateme">
-                    <img src={require("../../images/shapes/15.png")} alt="shape" />
+                    <img src="/images/shapes/15.png" alt="shape" />
                 </div>
             </section>
         );

@@ -36,7 +36,7 @@ export class Feedback extends Component {
                         >
                             <div className="col-lg-12">
                                 <div className="single-feedback center-feedback-box">
-                                    <img src={require("../../images/client-image/1.jpg")} alt="image" />
+                                    <img src="/images/client-image/1.jpg" alt="image" />
 
                                     <p>"Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 
@@ -46,7 +46,7 @@ export class Feedback extends Component {
 
                             <div className="col-lg-12">
                                 <div className="single-feedback center-feedback-box">
-                                    <img src={require("../../images/client-image/2.jpg")} alt="image" />
+                                    <img src="/images/client-image/2.jpg" alt="image" />
 
                                     <p>"Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 
@@ -56,7 +56,7 @@ export class Feedback extends Component {
 
                             <div className="col-lg-12">
                                 <div className="single-feedback center-feedback-box">
-                                    <img src={require("../../images/client-image/3.jpg")} alt="image" />
+                                    <img src="/images/client-image/3.jpg" alt="image" />
 
                                     <p>"Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 
@@ -67,7 +67,7 @@ export class Feedback extends Component {
                     </div>
                 </div>
 
-                <img src={require("../../images/quote.png")} className="quote-img" alt="quote" />
+                <img src="/images/quote.png" className="quote-img" alt="quote" />
             </section>
         );
     }

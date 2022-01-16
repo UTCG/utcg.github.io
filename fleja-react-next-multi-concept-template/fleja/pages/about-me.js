@@ -11,8 +11,9 @@ import Funfacts from '../components/freelancer/Funfacts';
 export class index extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 <Navbar />
+
                 <div className="page-title-area item-bg1">
                     <div className="container">
                         <h1>About Me</h1>
@@ -26,14 +27,19 @@ export class index extends Component {
                         </ul>
                     </div>
                 </div>
+
                 <AboutMe />
+
                 <Cta />
+
                 <Services />
+
                 <Skills />
+                
                 <Funfacts />
 
                 <Footer />
-            </React.Fragment>
+            </>
         );
     }
 }

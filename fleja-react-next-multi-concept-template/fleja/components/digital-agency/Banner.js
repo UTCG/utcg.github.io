@@ -19,7 +19,7 @@ export class Banner extends Component {
                                     <div className="hero-content">
                                         <h1>We are creative digital agency</h1>
                                         <p>Lorem ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        <a href="#" className="btn btn-primary">Get Started</a>
+                                        <a href="/contact" className="btn btn-primary">Get Started</a>
                                     </div>
                                 </div>
                             </div>
@@ -30,25 +30,20 @@ export class Banner extends Component {
                 <div className="banner-social-buttons">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/" target="_blank">
                                 <i className="icofont-facebook"></i>
-
                                 <span>Facebook</span>
                             </a>
                         </li>
-
                         <li>
-                            <a href="#">
+                            <a href="https://twitter.com/" target="_blank">
                                 <i className="icofont-twitter"></i>
-
                                 <span>Twitter</span>
                             </a>
                         </li>
-
                         <li>
-                            <a href="#">
+                            <a href="https://www.instagram.com/" target="_blank">
                                 <i className="icofont-instagram"></i>
-
                                 <span>Instagram</span>
                             </a>
                         </li>

@@ -6,7 +6,7 @@ export class CalendarHeading extends Component {
       <div className="container pt-20">
           <div className="section-title">
               <span className="wow fadeInUp">Upcoming Events</span>
-    <h2 className="wow fadeInDown">See what's happening next at UTCG</h2>
+              <h2 className="wow fadeInDown">See what's happening next at UTCG</h2>
           </div>
 
       </div>

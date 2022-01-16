@@ -32,7 +32,7 @@ class Payments extends React.Component {
         };
 
         return (
-            <React.Fragment>
+            <>
                 <ToastContainer transition={Zoom} />
 
                 <div className="order-btn">
@@ -51,7 +51,7 @@ class Payments extends React.Component {
                         </button>
                     </StripeCheckout>
                 </div>
-            </React.Fragment>
+            </>
         );
     }
 }

@@ -44,9 +44,9 @@ export class Partner extends Component {
                             <div className="col-lg-12">
                                 <div className="partner-item">
                                     <Link href="#">
-                                        <a>
-                                            <img src={require("../../images/partner-image/1.png")} alt="partner" />
-                                            <img src={require("../../images/partner-image/1.png")} alt="partner" />
+                                        <a target="_blank">
+                                            <img src="/images/partner-image/1.png" alt="partner" />
+                                            <img src="/images/partner-image/1.png" alt="partner" />
                                         </a>
                                     </Link>
                                 </div>
@@ -55,9 +55,9 @@ export class Partner extends Component {
                             <div className="col-lg-12">
                                 <div className="partner-item">
                                     <Link href="#">
-                                        <a>
-                                            <img src={require("../../images/partner-image/2.png")} alt="partner" />
-                                            <img src={require("../../images/partner-image/2.png")} alt="partner" />
+                                        <a target="_blank">
+                                            <img src="/images/partner-image/2.png" alt="partner" />
+                                            <img src="/images/partner-image/2.png" alt="partner" />
                                         </a>
                                     </Link>
                                 </div>
@@ -66,9 +66,9 @@ export class Partner extends Component {
                             <div className="col-lg-12">
                                 <div className="partner-item">
                                     <Link href="#">
-                                        <a>
-                                            <img src={require("../../images/partner-image/3.png")} alt="partner" />
-                                            <img src={require("../../images/partner-image/3.png")} alt="partner" />
+                                        <a target="_blank">
+                                            <img src="/images/partner-image/3.png" alt="partner" />
+                                            <img src="/images/partner-image/3.png" alt="partner" />
                                         </a>
                                     </Link>
                                 </div>
@@ -77,9 +77,9 @@ export class Partner extends Component {
                             <div className="col-lg-12">
                                 <div className="partner-item">
                                     <Link href="#">
-                                        <a>
-                                            <img src={require("../../images/partner-image/4.png")} alt="partner" />
-                                            <img src={require("../../images/partner-image/4.png")} alt="partner" />
+                                        <a target="_blank">
+                                            <img src="/images/partner-image/4.png" alt="partner" />
+                                            <img src="/images/partner-image/4.png" alt="partner" />
                                         </a>
                                     </Link>
                                 </div>
@@ -88,9 +88,9 @@ export class Partner extends Component {
                             <div className="col-lg-12">
                                 <div className="partner-item">
                                     <Link href="#">
-                                        <a>
-                                            <img src={require("../../images/partner-image/5.png")} alt="partner" />
-                                            <img src={require("../../images/partner-image/5.png")} alt="partner" />
+                                        <a target="_blank">
+                                            <img src="/images/partner-image/5.png" alt="partner" />
+                                            <img src="/images/partner-image/5.png" alt="partner" />
                                         </a>
                                     </Link>
                                 </div>

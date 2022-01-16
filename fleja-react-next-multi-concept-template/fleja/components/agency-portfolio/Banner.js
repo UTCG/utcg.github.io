@@ -25,13 +25,13 @@ export class Banner extends Component {
         display: false
     }
 
-    componentDidMount(){
-        this.setState({ display: true })
+    componentDidMount(){ 
+        this.setState({ display: true }) 
     }
 
     render() {
         return (
-            <React.Fragment>
+            <>
             {this.state.display ? <OwlCarousel
                 className="home-slides agency-portfolio-home owl-carousel owl-theme"
                 {...options}
@@ -61,17 +61,17 @@ export class Banner extends Component {
                         </div>
                     </div>
                     <div class="shape1">
-                        <img src={require("../../images/shapes/cube_corner.png")} alt="shape" />
+                        <img src={"images/shapes/cube_corner.png"} alt="shape" />
                     </div>
                     <div class="shape2">
-                        <img src={require("../../images/shapes/corner_top_rt.png")} alt="shape" />
+                        <img src={"images/shapes/corner_top_rt.png"} alt="shape" />
                     </div>
                     <div class="shape3">
-                        <img src={require("../../images/shapes/corner_bot_left.png")} alt="shape" />
+                        <img src={"images/shapes/corner_bot_left.png"} alt="shape" />
                     </div>
                 </div>
                 </OwlCarousel> : ''}
-            </React.Fragment>
+            </>
         );
     }
 }

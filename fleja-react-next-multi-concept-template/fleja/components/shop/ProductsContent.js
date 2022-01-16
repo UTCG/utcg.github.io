@@ -26,7 +26,9 @@ export class ProductsContent extends Component {
 
         return (
             <section className="product-area ptb-120">
+
                 <ToastContainer />
+
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 col-md-12">
@@ -42,7 +44,7 @@ export class ProductsContent extends Component {
                                         <div className="woocommerce-topbar-ordering">
                                             <form>
                                                 <div className="select-box">
-                                                    <select className="form-control">
+                                                    <select className="form-select">
                                                         <option value="1">Sort by Popularity</option>
                                                         <option value="2">Sort by Average Rating</option>
                                                         <option value="0">Sort by Latest</option>

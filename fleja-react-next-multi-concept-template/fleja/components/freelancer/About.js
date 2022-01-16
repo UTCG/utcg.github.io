@@ -25,7 +25,7 @@ export class About extends Component {
                         
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src={require("../../images/about.jpg")} alt="about-image" />
+                                <img src="/images/about.jpg" alt="about-image" />
                             </div>
                         </div>
                     </div>

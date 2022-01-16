@@ -10,7 +10,7 @@ class ComingSoon extends Component {
     };
 
     commingSoonTime = () => {
-        let endTime = new Date("January 23, 2020 17:00:00 PDT");			
+        let endTime = new Date("January 23, 2022 17:00:00 PDT");			
         let endTimeParse = (Date.parse(endTime)) / 1000;
         let now = new Date();
         let nowParse = (Date.parse(now) / 1000);

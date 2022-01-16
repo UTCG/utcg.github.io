@@ -6,8 +6,9 @@ import Footer from '../components/layout/Footer';
 export class index extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 <Navbar />
+                
                 <div className="page-title-area item-bg1">
                     <div className="container">
                         <h1>Our Services</h1>
@@ -19,15 +20,6 @@ export class index extends Component {
                             </li>
                             <li>Our Services</li>
                         </ul>
-                    </div>
-                    <div className="shape1">
-                        <img src={require("../images/shapes/cube_corner.png")} alt="shape" />
-                    </div>
-                    <div className="shape2">
-                        <img src={require("../images/shapes/corner_top_rt.png")} alt="shape" />
-                    </div>
-                    <div className="shape3">
-                        <img src={require("../images/shapes/corner_bot_left.png")} alt="shape" />
                     </div>
                 </div>
 
@@ -93,7 +85,7 @@ export class index extends Component {
                                     <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
                                 </div>
                             </div>
-
+                            
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-services-box">
                                     <div className="icon">
@@ -158,7 +150,7 @@ export class index extends Component {
                 </section>
 
                 <Footer />
-            </React.Fragment>
+            </>
         );
     }
 }

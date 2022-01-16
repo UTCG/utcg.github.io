@@ -13,29 +13,30 @@ export class Contact extends Component {
                         </div>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                        <Link href="#">
+
+                        <Link href="/contact">
                             <a className="btn btn-primary wow fadeInUp">Contact Us</a>
                         </Link>
                     </div>
                 </div>
 
-                <div class="shape13">
-                    <img src={require("../../images/shapes/13.png")} alt="shape" />
+                <div className="shape13">
+                    <img src="/images/shapes/13.png" alt="shape" />
                 </div>
-                <div class="shape18">
-                    <img src={require("../../images/shapes/18.png")} alt="shape" />
+                <div className="shape18">
+                    <img src="/images/shapes/18.png" alt="shape" />
                 </div>
-                <div class="shape19">
-                    <img src={require("../../images/shapes/19.png")} alt="shape" />
+                <div className="shape19">
+                    <img src="/images/shapes/19.png" alt="shape" />
                 </div>
-                <div class="shape20 rotateme">
-                    <img src={require("../../images/shapes/20.png")} alt="shape" />
+                <div className="shape20 rotateme">
+                    <img src="/images/shapes/20.png" alt="shape" />
                 </div>
-                <div class="shape21">
-                    <img src={require("../../images/shapes/21.png")} alt="shape" />
+                <div className="shape21">
+                    <img src="/images/shapes/21.png" alt="shape" />
                 </div>
-                <div class="shape22">
-                    <img src={require("../../images/shapes/22.png")} alt="shape" />
+                <div className="shape22">
+                    <img src="/images/shapes/22.png" alt="shape" />
                 </div>
             </section>
         );
