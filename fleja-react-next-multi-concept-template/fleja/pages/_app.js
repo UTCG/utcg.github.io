@@ -31,7 +31,7 @@ export default withRedux(initStore)(
                     <Head>
                         <meta charSet="utf-8" />
                         <meta name="viewport" content="width=device-width, initial-scale=1" />
-                        <title>Fleja | React Next Responsive Multi-Concept Template</title>
+                        <title>UTCG | UofT Computer Graphics Club</title>
                     </Head>
 
                     <Preloader>
