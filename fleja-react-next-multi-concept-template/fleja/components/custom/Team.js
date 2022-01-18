@@ -14,7 +14,7 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src="/images/team-image/2.jpg" className="member-img" alt="team" />
+                                    <img src="/images/team-image/2021-team-images/rikin.png" className="member-img" alt="team" />
                                     <img src="/images/team-image/team-back.jpg" className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
@@ -88,7 +88,7 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={"/images/team-image/2.jpg"} className="member-img" alt="team" />
+                                    <img src={"/images/team-image/2021-team-images/charlie.jpg"} className="member-img" alt="team" />
                                     <img src={"/images/team-image/team-back.jpg"} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
@@ -122,7 +122,7 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={"/images/team-image/2.jpg"} className="member-img" alt="team" />
+                                    <img src={"/images/team-image/2021-team-images/kurtis.jpg"} className="member-img" alt="team" />
                                     <img src={"/images/team-image/team-back.jpg"} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
@@ -139,7 +139,7 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src="/images/team-image/2.jpg" className="member-img" alt="team" />
+                                    <img src="/images/team-image/2021-team-images/edith.jpg" className="member-img" alt="team" />
                                     <img src="/images/team-image/team-back.jpg" className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
