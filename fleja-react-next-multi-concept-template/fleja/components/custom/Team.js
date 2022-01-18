@@ -126,6 +126,8 @@ export class Team extends Component {
                                     <img src={"/images/team-image/team-back.jpg"} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
+                                        <li><a href="https://www.linkedin.com/in/kurtislaw"><i className="icofont-linkedin"></i></a></li>
+                                        <li><a href="https://github.com/kurtislaw"><i className="icofont-github"></i></a></li>
                                     </ul>
                                 </div>
 
@@ -143,21 +145,6 @@ export class Team extends Component {
                                     <img src="/images/team-image/team-back.jpg" className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li>
-                                            <a href="https://www.facebook.com/">
-                                                <i className="icofont-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://twitter.com/">
-                                                <i className="icofont-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.instagram.com/">
-                                                <i className="icofont-instagram"></i>
-                                            </a>
-                                        </li>
                                     </ul>
                                 </div>
 
