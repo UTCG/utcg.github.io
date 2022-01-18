@@ -53,7 +53,7 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={"/images/patsy.jpg"} className="member-img" alt="team" />
+                                    <img src={"/images/team-image/2021-team-images/patsy.jpg"} className="member-img" alt="team" />
                                     <img src={"/images/team-image/team-back.jpg"} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
@@ -105,7 +105,7 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={"/images/team-image/2.jpg"} className="member-img" alt="team" />
+                                    <img src={"/images/team-image/2021-team-images/doris.jpg"} className="member-img" alt="team" />
                                     <img src={"/images/team-image/team-back.jpg"} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
