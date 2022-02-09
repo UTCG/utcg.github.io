@@ -23,13 +23,13 @@ export class Contact extends Component {
                         </ul>
                     </div>
                     <div className="shape1">
-                        <img src={require("../images/shapes/cube_corner.png")} alt="shape"/>
+                        <img src="/images/shapes/cube_corner.png" alt="shape"/>
                     </div>
                     <div className="shape2">
-                        <img src={require("../images/shapes/corner_top_rt.png")} alt="shape"/>
+                        <img src="/images/shapes/corner_top_rt.png" alt="shape"/>
                     </div>
                     <div className="shape3">
-                        <img src={require("../images/shapes/corner_bot_left.png")} alt="shape"/>
+                        <img src="/images/shapes/corner_bot_left.png" alt="shape"/>
                     </div>
                 </div>
 
