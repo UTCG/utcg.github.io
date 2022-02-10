@@ -26,12 +26,15 @@ export class FeaturedEvent extends Component {
                                                 <br/>
                                                 Check out our companion page to see some examples of trippy art we'll make.
                                             </p>
-                                            <a href="http://bit.ly/UTCGProjectsInfoSessVid" target="_blank"
+                                            <a href="https://www.eventbrite.ca/e/utcg-shaders-workshop-tickets-263540866827"
+                                               target="_blank"
+                                               rel="noopener"
                                                className="btn btn-primary wow fadeInUp">
                                                 Register on EventBrite
                                             </a>
                                             <> </> {/* lol react */}
-                                            <a href="https://utcg.github.io/workshops/2022/02/10/shaders" target="_blank"
+                                            <a href="https://utcg.github.io/workshops/2022/02/10/shaders"
+                                               target="_blank"
                                                rel="noopener"
                                                className="btn btn-primary wow fadeInUp">
                                                 Companion Page
