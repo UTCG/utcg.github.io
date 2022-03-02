@@ -44,7 +44,7 @@ function getEvents (callback) {
     let ne = {start: new Date(2022, 2, 3, 18, 0, 0, 0),
               end: new Date(2022, 2, 3, 19, 0, 0, 0),
               title: "Rapid Fire Talks",
-              description: "Interested in Computer Graphics/HCI research? Join us for Rapid Fire Talks to get a peek into cutting edge work being done today!"}
+              description: "https://www.eventbrite.ca/e/rapid-fire-talks-2022-tickets-288259380567"}
     events1.push(ne);
     callback(events1);
 }
