@@ -40,12 +40,20 @@ function getEvents (callback) {
             callback(events);
         }
     })
-    const events1 = [];
-    let ne = {start: new Date(2022, 2, 3, 18, 0, 0, 0),
-              end: new Date(2022, 2, 3, 19, 0, 0, 0),
-              title: "Rapid Fire Talks",
-              description: "https://www.eventbrite.ca/e/rapid-fire-talks-2022-tickets-288259380567"}
-    events1.push(ne);
+    const events1 = [
+        {start: new Date(2022, 2, 0, 18, 30, 0, 0),
+         end: new Date(2022, 2, 7, 19, 30, 0, 0),
+         title: "Model UofT",
+         description: "https://discord.gg/TjjDYRT6Rz"},
+        {start: new Date(2022, 2, 3, 18, 0, 0, 0),
+         end: new Date(2022, 2, 3, 19, 0, 0, 0),
+         title: "Rapid Fire Talks",
+         description: "https://www.eventbrite.ca/e/rapid-fire-talks-2022-tickets-288259380567"},
+        {start: new Date(2022, 2, 9, 18, 0, 0, 0),
+         end: new Date(2022, 2, 9, 19, 0, 0, 0),
+         title: "Cyberpunk Facial Animation",
+         description: "https://www.eventbrite.ca/e/cyberpunk-2077-facial-animation-talk-tickets-288698122857"},
+    ];
     callback(events1);
 }
 
