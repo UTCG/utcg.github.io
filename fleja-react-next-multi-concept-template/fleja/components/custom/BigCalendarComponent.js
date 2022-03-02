@@ -40,6 +40,13 @@ function getEvents (callback) {
             callback(events);
         }
     })
+    const events1 = [];
+    let ne = {start: new Date(2022, 2, 3, 18, 0, 0, 0),
+              end: new Date(2022, 2, 3, 19, 0, 0, 0),
+              title: "Rapid Fire Talks",
+              description: "Interested in Computer Graphics/HCI research? Join us for Rapid Fire Talks to get a peek into cutting edge work being done today!"}
+    events1.push(ne);
+    callback(events1);
 }
 
 
