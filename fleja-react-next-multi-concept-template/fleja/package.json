@@ -18,7 +18,7 @@
 		"express": "^4.17.1",
 		"isomorphic-fetch": "^3.0.0",
 		"mdb-react-ui-kit": "^2.2.0",
-		"moment": "^2.29.1",
+		"moment": "^2.29.2",
 		"next": "^12.0.4",
 		"next-redux-wrapper": "^3.0.0",
 		"next-routes": "^1.4.2",
