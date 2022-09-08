@@ -6,7 +6,7 @@ import Footer from '../components/layout/Footer';
 import HomepageBanner from '../components/custom/HomepageBanner';
 import Contact from '../components/custom/Contact';
 import BigCalendarComponent from '../components/custom/BigCalendarComponent';
-import FeaturedEvent from '../components/custom/FeaturedEvent';
+import Hiring from '../components/custom/Hiring';
 import PromoVideo from "../components/custom/PromoVideo";
 import AnnouncementBanner from "../components/custom/AnnouncementBanner";
 
@@ -28,7 +28,7 @@ export class index extends Component {
             <React.Fragment>
                 <Navbar />
                 <HomepageBanner />
-                <FeaturedEvent />
+                <Hiring />
                 <PromoVideo/>
                 <Contact />
                 <Footer />
