@@ -14,13 +14,9 @@ export class Hiring extends Component {
                                     <div className="row justify-content-center">
                                         <div className="col-md-8">
                                             <p>
-                                                We're recruiting new members for our executive team! IF you're interested in
-												being UTCG's next Graphic Designer, First Year Representative, or General Executive,
-												please fill out our application!	
-                                                <br/>
-												Deadline is September 23, 2022. Commitment is about 1-3 hours per week. These roles are ideal
-												if you are interested in fields related to computer graphics, entertainment, or research.
-												All students are invited to apply, no matter what your background or experience is!
+                                                We're recruiting new members for our executive team! If you're interested in
+												being UTCG's next Marketing & Design Coordinator, First Year Representative, or General Executive,
+												please fill out our application!
                                             </p>
                                             <a href="https://forms.gle/xRNvaZ1dv2usNyb79"
                                                target="_blank"
