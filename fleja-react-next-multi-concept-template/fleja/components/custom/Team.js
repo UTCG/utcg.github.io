@@ -32,41 +32,6 @@ export class Team extends Component {
                         </div>
 
 
-
-                        <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
-                            <div className="single-team">
-                                <div className="team-image">
-                                    <img src={"/images/chanz.jpg"} className="member-img" alt="team" />
-                                    <img src={"/images/team-image/team-back.jpg"} className="back-image" alt="back-image" />
-
-                                    <ul className="social-links">
-                                    </ul>
-                                </div>
-
-                                <div className="team-content">
-                                    <h3>Chanz Valmonte</h3>
-                                    <span>Co-President</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="single-team">
-                                <div className="team-image">
-                                    <img src={"/images/team-image/2021-team-images/patsy.jpg"} className="member-img" alt="team" />
-                                    <img src={"/images/team-image/team-back.jpg"} className="back-image" alt="back-image" />
-
-                                    <ul className="social-links">
-                                    </ul>
-                                </div>
-
-                                <div className="team-content">
-                                    <h3>Patsy Jian</h3>
-                                    <span>VP Internal</span>
-                                </div>
-                            </div>
-                        </div>
-
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
@@ -74,33 +39,17 @@ export class Team extends Component {
                                     <img src={"/images/team-image/team-back.jpg"} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
+                                      <li><a href="https://github.com/AX-I"><i className="icofont-github"></i></a></li>
                                     </ul>
                                 </div>
 
                                 <div className="team-content">
                                     <h3>Louis Zhang</h3>
-                                    <span>VP External</span>
+                                    <span>Co-President</span>
                                 </div>
                             </div>
                         </div>
 
-
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="single-team">
-                                <div className="team-image">
-                                    <img src={"/images/team-image/2021-team-images/charlie.jpg"} className="member-img" alt="team" />
-                                    <img src={"/images/team-image/team-back.jpg"} className="back-image" alt="back-image" />
-
-                                    <ul className="social-links">
-                                    </ul>
-                                </div>
-
-                                <div className="team-content">
-                                    <h3>Charlie Morocz</h3>
-                                    <span>First Year Representative</span>
-                                </div>
-                            </div>
-                        </div>
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
@@ -149,7 +98,7 @@ export class Team extends Component {
                                 </div>
 
                                 <div className="team-content">
-                                    <h3>Edith Jan</h3>
+                                    <h3>Edith Ma</h3>
                                     <span>General Executive Member</span>
                                 </div>
                             </div>
