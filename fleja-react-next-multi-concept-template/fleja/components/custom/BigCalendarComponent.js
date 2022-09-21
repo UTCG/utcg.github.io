@@ -41,6 +41,8 @@ function getEvents (callback) {
         }
     })
     const events1 = [
+        // NOTE: January is month 0!
+
         {start: new Date(2022, 2, 0, 18, 30, 0, 0),
          end: new Date(2022, 2, 7, 19, 30, 0, 0),
          title: "Model UofT",
@@ -53,6 +55,20 @@ function getEvents (callback) {
          end: new Date(2022, 2, 9, 19, 0, 0, 0),
          title: "Cyberpunk Facial Animation",
          description: "https://www.eventbrite.ca/e/cyberpunk-2077-facial-animation-talk-tickets-288698122857"},
+
+        // 2022-2023 year
+        {start: new Date(2022, 8, 28, 18, 0, 0, 0), end: new Date(2022, 8, 28, 19, 0, 0, 0),
+         title: "Blender Workshop",
+         description: "#"},
+        {start: new Date(2022, 9, 5, 18, 0, 0, 0), end: new Date(2022, 9, 5, 19, 0, 0, 0),
+         title: "Social + Model UofT",
+         description: "#"},
+        {start: new Date(2022, 9, 12, 18, 0, 0, 0), end: new Date(2022, 9, 12, 19, 0, 0, 0),
+         title: "Pixomondo: HALO",
+         description: "#"},
+        {start: new Date(2022, 9, 19, 18, 0, 0, 0), end: new Date(2022, 9, 19, 19, 0, 0, 0),
+         title: "Social + SIGGRAPH viewing",
+         description: "#"},
     ];
     callback(events1);
 }

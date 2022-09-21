@@ -69,15 +69,23 @@ export class Contact extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="contact-info-box">
                                     <div className="icon">
                                         <i className="icofont-email"></i>
                                     </div>
                                     <h3>Join Mailing List</h3>
-                                    <a href="http://eepurl.com/dGyWHr?fbclid=IwAR1VSrHcZcBTUEcFPBovD0sJ2mcxKPaSFr0qrXL_kkM_XRv02tRMbDncwx4">Join
-                                        now!</a>
-                                    <p></p>
+                                    <a href="http://eepurl.com/dGyWHr">Join now!</a>
+                                </div>
+                            </div>
+                            
+                            <div className="col-lg-4 col-md-6">
+                                <div className="contact-info-box">
+                                    <div className="icon">
+                                        <i className="icofont-instagram"></i>
+                                    </div>
+                                    <h3>Follow our Instagram</h3>
+                                    <a href="https://instagram.com/utcomputergraphics">@UTComputerGraphics</a>
                                 </div>
                             </div>
                         </div>
