@@ -98,7 +98,7 @@ export class HomepageBanner extends Component {
                     <img src="/images/shapes/10.png" alt="shape" />
                 </div>
                 <div className="circle-shape1">
-                    <img src={require("../../images/shapes/bunny_grey.png")} alt="shape" className="w-150"/>
+                    <img src="/images/shapes/bunny_grey.png" alt="shape" className="w-150"/>
                 </div>
             </div>
         );
