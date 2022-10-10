@@ -13,6 +13,12 @@ const portfolio_images = [
         description: "A photo of some of the exec team from the SIGGRAPH 2020 Information Session!",
         relatedLink: "https://www.facebook.com/events/568018043769485/"
     },
+    { 
+        image: "/images/clubfair.jpg",
+        title: "CS Clubs Fair 2022", 
+        description: "Some of the exec team at the 2022 CS Welcome to the Program event!",
+        relatedLink: "#"
+    },
 ];
 
 export class Portfolio extends Component {
