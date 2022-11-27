@@ -163,6 +163,31 @@ export class Team extends Component {
                 </div>
               </div>
             </div>
+
+            <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
+              <div className="single-team">
+                <div className="team-image">
+                  <img
+                    src="/images/team-image/2021-team-images/Sheldon.jpg"
+                    className="member-img"
+                    alt="team"
+                  />
+                  <img
+                    src="/images/team-image/team-back.jpg"
+                    className="back-image"
+                    alt="back-image"
+                  />
+
+                  <ul className="social-links"></ul>
+                </div>
+
+                <div className="team-content">
+                  <h3>Sheldon Dacon</h3>
+                  <span>General Executive Member</span>
+                </div>
+              </div>
+            </div>
+
             <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
               <div className="single-team">
                 <div className="team-image">
@@ -204,6 +229,7 @@ export class Team extends Component {
         <div className="shape6">
           <img src="/images/shapes/6.png" alt="shape" />
         </div>
+      
       </section>
     );
   }
