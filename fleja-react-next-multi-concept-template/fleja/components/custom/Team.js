@@ -135,7 +135,7 @@ export class Team extends Component {
 
                 <div className="team-content">
                   <h3>Kurtis Law</h3>
-                  <span>General Executive Member</span>
+                  <span>VP Internal</span>
                 </div>
               </div>
             </div>
